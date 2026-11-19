@@ -1,0 +1,380 @@
+To honour the JVM settings for this build a single-use Daemon process will be forked. For more on this, please refer to https://docs.gradle.org/9.8.1/userguide/gradle_daemon.html#sec:disabling_the_daemon in the Gradle documentation.
+Daemon will be stopped at the end of the build 
+
+> Configure project :
+Fabric Loom: 1.19.4
+
+> Task :compileJava UP-TO-DATE
+> Task :processResources UP-TO-DATE
+> Task :classes UP-TO-DATE
+> Task :generateLog4jConfig UP-TO-DATE
+> Task :generateDLIConfig UP-TO-DATE
+> Task :configureLaunch UP-TO-DATE
+
+> Task :runServer
+[23:45:06] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 26.3 with Fabric Loader 0.20.1
+[23:45:06] [main/INFO] (FabricLoader/Mappings) Mappings not present!
+[23:45:07] [main/INFO] (FabricLoader) Loading 62 mods:
+	- fabric-advancement-api-v1 1.0.1+38c7a2d55d
+	- fabric-api 0.166.2+26.3
+	- fabric-api-base 2.0.6+fcdff87f5d
+	- fabric-api-lookup-api-v1 2.0.24+3434d6d95d
+	- fabric-biome-api-v1 20.2.0+423307765d
+	- fabric-block-api-v1 3.1.0+0ae6f9115d
+	- fabric-block-getter-api-v2 2.0.9+3434d6d95d
+	- fabric-command-api-v2 3.1.2+fcdff87f5d
+	- fabric-content-registries-v0 15.0.7+74ed1ea55d
+	- fabric-convention-tags-v2 4.10.5+187b64905d
+	- fabric-crash-report-info-v1 1.0.7+fcdff87f5d
+	- fabric-creative-tab-api-v1 5.0.22+fcdff87f5d
+	- fabric-data-attachment-api-v1 2.2.35+af2d4d095d
+	- fabric-data-generation-api-v1 27.4.3+187b64905d
+	- fabric-debug-api-v1 1.0.5+5af7744b5d
+	- fabric-dimensions-v1 5.1.20+5af7744b5d
+	- fabric-entity-events-v1 6.0.4+3434d6d95d
+	- fabric-events-interaction-v0 5.3.10+b9b88df45d
+	- fabric-game-rule-api-v1 4.0.10+3434d6d95d
+	- fabric-gametest-api-v1 4.0.36+3434d6d95d
+	- fabric-item-api-v1 14.8.1+8f511c9f5d
+	- fabric-lifecycle-events-v1 4.1.9+ffef5f675d
+	- fabric-loot-api-v3 4.0.9+4068fd645d
+	- fabric-menu-api-v1 2.0.31+ed66f0a35d
+	- fabric-message-api-v1 7.1.0+3e5b46335d
+	- fabric-networking-api-v1 6.4.1+c58129785d
+	- fabric-object-builder-api-v1 24.1.13+e2f63d3e5d
+	- fabric-particles-v1 5.0.28+3434d6d95d
+	- fabric-permission-api-v1 1.0.8+fcdff87f5d
+	- fabric-recipe-api-v1 10.0.12+b9b88df45d
+	- fabric-registry-sync-v0 8.0.5+1ca9f6365d
+	- fabric-rendering-fluids-v1 6.0.6+3434d6d95d
+	- fabric-resource-conditions-api-v1 6.2.1+fd3b1d565d
+	- fabric-resource-loader-v0 3.3.27+4fc5413f5d
+	- fabric-resource-loader-v1 3.1.0+5af7744b5d
+	- fabric-serialization-api-v1 2.0.8+bb0d41e65d
+	- fabric-tag-api-v1 2.1.11+fcdff87f5d
+	- fabric-transfer-api-v1 8.0.27+c8357e785d
+	- fabric-transitive-access-wideners-v1 8.1.17+e2f63d3e5d
+	- fabricloader 0.20.1
+	- guessbingo 0.1.0
+	- java 25
+	- minecraft 26.3
+	- mixinextras 0.5.5
+	- yet-another-minecraft-bingo 2.15.1+mc26.3
+	   |-- com_zaxxer_hikaricp 7.0.2
+	   |-- fabric-language-kotlin 1.13.11+kotlin.2.3.21
+	   |    |-- org_jetbrains_kotlin_kotlin-reflect 2.3.21
+	   |    |-- org_jetbrains_kotlin_kotlin-stdlib 2.3.21
+	   |    |-- org_jetbrains_kotlin_kotlin-stdlib-jdk7 2.3.21
+	   |    |-- org_jetbrains_kotlin_kotlin-stdlib-jdk8 2.3.21
+	   |    |-- org_jetbrains_kotlinx_atomicfu-jvm 0.32.1
+	   |    |-- org_jetbrains_kotlinx_kotlinx-coroutines-core-jvm 1.10.2
+	   |    |-- org_jetbrains_kotlinx_kotlinx-coroutines-jdk8 1.10.2
+	   |    |-- org_jetbrains_kotlinx_kotlinx-datetime-jvm 0.7.1
+	   |    |-- org_jetbrains_kotlinx_kotlinx-io-bytestring-jvm 0.9.0
+	   |    |-- org_jetbrains_kotlinx_kotlinx-io-core-jvm 0.9.0
+	   |    |-- org_jetbrains_kotlinx_kotlinx-serialization-cbor-jvm 1.11.0
+	   |    |-- org_jetbrains_kotlinx_kotlinx-serialization-core-jvm 1.11.0
+	   |    \-- org_jetbrains_kotlinx_kotlinx-serialization-json-jvm 1.11.0
+	   |-- org_xerial_sqlite-jdbc 3.53.1.0
+	   \-- yet-another-minecraft-bingo-api 2.15.1
+[23:45:07] [main/INFO] (FabricLoader/Mixin) SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/chiji/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.17.5+mixin.0.8.7/cef8519a91129d0c21fa03bb9378f0e8ca810e5/sponge-mixin-0.17.5+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[23:45:09] [main/INFO] (FabricLoader/MixinExtras|Service) Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.5).
+
+com.sun.jna.platform.win32.Win32Exception: 参数错误。
+[23:45:11] [main/WARN] (PerfCounterQuery) Unable to locate English counter names in registry Perflib 009. Assuming English counters. Error 0x80070057. See https://support.microsoft.com/en-us/help/300956/how-to-manually-rebuild-performance-counter-library-values
+[23:45:12] [main/WARN] (Minecraft) Failed to get system info for Process Loads
+
+[23:45:12] [main/WARN] (Minecraft) Failed to get system info for Process Virtual Size (MiB)
+
+[23:45:12] [main/WARN] (Minecraft) Failed to get system info for Process Resident Size (MiB)
+
+[23:45:24] [main/INFO] (guessbingo) 已对接 Yet Another Minecraft BINGO：队伍、开局与重置由它提供
+[23:45:24] [main/INFO] (guessbingo) 猜词 Bingo 已加载，词库共 2261 条
+[23:45:25] [main/INFO] (Main) Starting Bingo migration runner...
+[23:45:25] [main/INFO] ([Koin]) Started 10 definitions in 8.47 ms
+[23:45:26] [main/INFO] (bingo) bingo: running migrations to v1
+[23:45:26] [main/INFO] (bingo) bingo: running migrations to v2
+[23:45:26] [main/INFO] (bingo) bingo: running migrations to v3
+[23:45:26] [main/INFO] (bingo) bingo: running migrations to v4
+[23:45:26] [main/INFO] (bingo) bingo: running migrations to v5
+[23:45:26] [main/WARN] (bingo) [MigrationHandler] Not renaming config/bingo as it does not exist.
+[23:45:26] [main/INFO] (bingo) bingo: running migrations to v6
+[23:45:26] [main/INFO] (bingo) bingo: running migrations to v7
+[23:45:26] [main/INFO] (bingo) bingo: running migrations to v8
+[23:45:26] [main/INFO] (bingo) bingo: running migrations to v9
+[23:45:26] [main/INFO] (bingo) bingo: running migrations to v10
+[23:45:26] [main/INFO] (bingo) bingo: running migrations to v11
+[23:45:26] [main/INFO] (bingo) bingo: running migrations to v12
+[23:45:26] [main/INFO] (bingo) bingo: running migrations to v13
+[23:45:26] [main/INFO] (bingo) bingo: running migrations to v14
+[23:45:26] [main/INFO] (bingo) bingo: running migrations to v15
+[23:45:26] [main/INFO] (bingo) bingo: running migrations to v16
+[23:45:26] [main/INFO] (bingo) bingo: running migrations to v17
+[23:45:26] [main/INFO] (bingo) bingo: running migrations to v18
+[23:45:26] [main/INFO] (bingo) bingo: running migrations to v19
+[23:45:26] [main/INFO] (bingo) bingo: running migrations to v20
+[23:45:26] [main/INFO] (bingo) bingo: running migrations to v21
+[23:45:26] [main/INFO] (bingo) bingo: running migrations to v22
+[23:45:26] [main/INFO] (bingo) bingo: running migrations to v23
+[23:45:26] [main/INFO] (bingo) bingo: running migrations to v24
+[23:45:26] [main/INFO] (bingo) bingo: running migrations to v25
+[23:45:26] [main/INFO] (bingo) bingo: running migrations to v26
+[23:45:26] [main/INFO] (bingo) bingo: running migrations to v27
+[23:45:26] [main/INFO] (bingo) bingo: running migrations to v28
+[23:45:26] [main/INFO] (bingo) bingo: running migrations to v29
+[23:45:26] [main/INFO] (bingo) bingo: running migrations to v30
+[23:45:26] [main/INFO] (bingo) bingo: running migrations to v31
+[23:45:26] [main/INFO] (bingo) bingo: running migrations to v32
+[23:45:26] [main/INFO] (Main) Starting Bingo Server application...
+[23:45:26] [main/INFO] ([Koin]) Started 231 definitions in 8.533 ms
+[23:45:26] [main/INFO] (bingo) [ServerDatapackManager] isLobbyMode=true - Installing the bingo datapack in C:\Users\chiji\AppData\Local\Claude-Data\claude_pzs8sxrjxfjjc\scratch-workspaces\1a5a3cb0-9bf2-4111-bc6a-901825f5b0ae\263b2f76-8f2d-4a0e-90cc-8b2ce52a28f8\scratch-2026-11-16-0aa583\run\world\datapacks\bingo.zip
+[23:45:26] [main/INFO] (bingo) Running database migrations...
+[23:45:26] [main/INFO] (HikariDataSource) HikariPool-1 - Starting...
+[23:45:26] [main/INFO] (HikariPool) HikariPool-1 - Added connection org.sqlite.jdbc4.JDBC4Connection@762963f5
+[23:45:26] [main/INFO] (HikariDataSource) HikariPool-1 - Start completed.
+[23:45:26] [main/INFO] (bingo) [ConnectionFactory] Migrating database from version 0 to 6...
+[23:45:27] [main/INFO] (bingo) Running database migrations... - done in 387.272300ms!
+[23:45:27] [main/INFO] (Minecraft) Environment: Environment[discoveryUrl=https://discovery.minecraftservices.com/minecraft/client, name=PROD]
+[23:45:27] [main/INFO] (Minecraft) Found new data pack file/bingo.zip, loading it automatically
+[23:45:29] [Worker-Main-16/INFO] (Minecraft) No existing world data, creating new world
+[23:45:31] [Worker-Main-19/INFO] (Minecraft) Loaded 1866 advancements
+[23:45:31] [Worker-Main-19/INFO] (bingo) [DataLoader] Reloading bingo data...
+[23:45:31] [Worker-Main-10/INFO] (bingo) [ObjectiveLoader] Reloading BINGO objectives...
+[23:45:31] [Worker-Main-12/INFO] (bingo) [ObjectiveDisplayRuleLoader] Reloading BINGO objective rules...
+[23:45:31] [Worker-Main-15/INFO] (bingo) [TierListLoader] Reloading BINGO tier lists...
+[23:45:31] [Worker-Main-3/INFO] (bingo) [TagLoader] Reloading BINGO objective tags...
+[23:45:31] [Worker-Main-2/INFO] (bingo) [TeamPresetLoader] Reloading BINGO team presets...
+[23:45:31] [Worker-Main-13/INFO] (bingo) [SpawnKitLoader] Reloading BINGO spawn kits...
+[23:45:31] [Worker-Main-18/INFO] (bingo) [MessageService.Loader] Reloading BINGO message formats...
+[23:45:31] [Worker-Main-17/INFO] (bingo) [ObtainableItemsLoader] Found 3195 items referenced in resource files
+[23:45:31] [Worker-Main-17/INFO] (bingo) [DataLoader] Prepared in 460.475300ms!
+[23:45:31] [main/INFO] (bingo) [DataLoader] Completed in 467.757900ms!
+[23:45:32] [main/INFO] (BiomeModificationImpl) Applied 0 biome modifications to 0 of 68 new biomes in 4.994 ms
+[23:45:32] [Server thread/INFO] (bingo) [ScopeManager] bingo.zip datapack exists - starting with isLobbyMode=true
+[23:45:32] [Server thread/INFO] (bingo) [ScopeManager] Starting server scope...
+[23:45:32] [Server thread/INFO] (bingo) [Reset] Applying random world seed...
+[23:45:32] [Server thread/INFO] (Minecraft) Starting minecraft server version 26.3
+[23:45:32] [Server thread/INFO] (Minecraft) Loading properties
+[23:45:32] [Server thread/INFO] (Minecraft) Default game type: SURVIVAL
+[23:45:32] [Server thread/INFO] (Minecraft) Generating keypair
+[23:45:32] [Server thread/INFO] (Minecraft) Starting Minecraft server on 127.0.0.1:25599
+[23:45:33] [Server thread/WARN] (Minecraft) **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[23:45:33] [Server thread/WARN] (Minecraft) The server will make no attempt to authenticate usernames. Beware.
+[23:45:33] [Server thread/WARN] (Minecraft) While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[23:45:33] [Server thread/WARN] (Minecraft) To change this, set "online-mode" to "true" in the server.properties file.
+[23:45:33] [Server thread/INFO] (Minecraft) Preparing level "world"
+[23:45:33] [Server thread/INFO] (Minecraft) Selecting global world spawn...
+[23:45:39] [Server thread/INFO] (Minecraft) Done (6.047s)! For help, type "help"
+[23:45:39] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[23:45:39] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[23:45:39] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[23:45:39] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[world]'/bingo:lobby
+[23:45:39] [Server thread/INFO] (guessbingo) 词库：2261 条可猜，2004 条可出题（其中 2004 条在本服务器上有效）
+[23:45:39] [Server thread/INFO] (bingo) [LobbyWorldService] Preparing the BINGO lobby...
+[23:45:40] [Server thread/INFO] (bingo) [LobbyWorldService] Preparing the BINGO lobby... - done in 189.046200ms!
+[23:45:40] [Server thread/INFO] (bingo) GameState changed: uninitialized -> pregame
+[23:45:40] [Server thread/INFO] (bingo) [CardService] Generating initial cards from game-options.json
+[23:45:40] [Server thread/INFO] (bingo) [CardService] Using random BINGO card seed: 7536096611942751269
+[23:45:40] [Server thread/INFO] (bingo) [UnobtainableTagProvider] Excluding 7 unobtainable items
+[23:45:40] [Server thread/INFO] (bingo) [MenuController] Spawning lobby menu at ( 0.000E+0  1.700E+1 -5.000E+0)
+[23:45:40] [Server thread/INFO] (bingo) Re-drawing map_null for team null (69.363900ms)
+[23:45:41] [Server thread/INFO] (bingo) Re-drawing map_null for team null (460.584800ms)
+[23:45:42] [Server thread/WARN] (Minecraft) Can't keep up! Is the server overloaded? Running 3303ms or 66 ticks behind
+[23:46:42] [Server thread/INFO] (Minecraft) Server empty for 60 seconds, pausing
+[23:46:56] [Server thread/INFO] (Minecraft) Loading 49 chunks for player spawn...
+[23:46:56] [Server thread/INFO] (Minecraft) Preparing spawn area: 0%
+[23:46:56] [Server thread/INFO] (Minecraft) Preparing spawn area: 0%
+[23:46:56] [Server thread/INFO] (Minecraft) Preparing spawn area: 0%
+[23:46:56] [Server thread/INFO] (Minecraft) Preparing spawn area: 0%
+[23:46:57] [Server thread/INFO] (Minecraft) Preparing spawn area: 0%
+[23:46:57] [Server thread/INFO] (Minecraft) Preparing spawn area: 0%
+[23:46:57] [Server thread/INFO] (Minecraft) Preparing spawn area: 0%
+[23:46:57] [Server thread/INFO] (Minecraft) Preparing spawn area: 0%
+[23:46:57] [Server thread/INFO] (Minecraft) Player0[/127.0.0.1:63335] logged in with entity id 140455 at (0.5, 17.0, 1.5)
+[23:46:57] [IO-Worker-1/INFO] (bingo) [StatsSyncController] Broadcasting stats hash to player 2654e3c3-150d-3857-a426-0b141796a4e0
+[23:46:57] [Server thread/INFO] (Minecraft) System chat: Player0 joined the game
+[23:47:08] [Server thread/INFO] (Minecraft) System chat: [Player0: [猜词] 难度 1 的题数已设为 1（下一局生效，本局共 8 题）]
+[23:47:08] [Server thread/INFO] (Minecraft) System chat: [Player0: [猜词] 难度 2 的题数已设为 0（下一局生效，本局共 5 题）]
+[23:47:09] [Server thread/INFO] (Minecraft) System chat: [Player0: [猜词] 难度 3 的题数已设为 0（下一局生效，本局共 3 题）]
+[23:47:09] [Server thread/INFO] (Minecraft) System chat: [Player0: [猜词] 难度 4 的题数已设为 0（下一局生效，本局共 2 题）]
+[23:47:10] [Server thread/INFO] (Minecraft) System chat: [Player0: [猜词] 难度 5 的题数已设为 0（下一局生效，本局共 1 题）]
+[23:47:10] [Server thread/INFO] (bingo) [TeamChangedEvent] Player Player0 team changed -> bingo_red
+[23:47:10] [Server thread/INFO] (bingo) Creating a map for team bingo_red - mapId=1
+[23:47:10] [Server thread/INFO] (bingo) Re-drawing map_1 for team red (2.127700ms)
+[23:47:13] [Server thread/INFO] (Minecraft) System chat: [Player0: Starting the game...]
+[23:47:13] [Server thread/INFO] (bingo) GameState changed: pregame -> starting
+[23:47:14] [Server thread/INFO] (bingo) [SpreadPlayers] Initialized in dimension minecraft:overworld with coordinateScale=1.0, logicalHeight=384, bottomY=-64, seaLevel=63
+[23:47:14] [Server thread/INFO] (bingo) Spawning team bingo_red near chunk ChunkPosition(x=3, z=-1)
+[23:47:14] [Server thread/INFO] (bingo) ┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+[23:47:14] [Server thread/INFO] (bingo)   BINGO Start!
+[23:47:14] [Server thread/INFO] (bingo)   Mode: Standard
+[23:47:14] [Server thread/INFO] (bingo)   Features: PvP
+[23:47:14] [Server thread/INFO] (bingo)   Goal: 1 line
+[23:47:14] [Server thread/INFO] (bingo)   End When: Never
+[23:47:14] [Server thread/INFO] (bingo)   Difficulty: 0, 0, 0, 9, 16
+[23:47:14] [Server thread/INFO] (bingo)   Filter: Everything
+[23:47:14] [Server thread/INFO] (bingo) ┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+[23:47:19] [Server thread/INFO] (bingo) Using spawn position [58, 104, -13] for bingo_red
+[23:47:19] [Server thread/INFO] (bingo) GameState changed: starting -> preloading
+[23:47:19] [Server thread/INFO] (bingo) [SpawnPreloadingController] Pre-generating 81 chunks within a view distance of 4...
+[23:47:25] [Server thread/INFO] (bingo) [SpawnPreloadingController] Finished preloading spawn chunks in 6.073383900s
+[23:47:25] [Server thread/INFO] (bingo) GameState changed: preloading -> loading
+[23:47:25] [Server thread/INFO] (bingo) Waiting until all players have loaded spawn terrain...
+[23:47:26] [Server thread/INFO] (bingo) Waiting until all players have loaded spawn terrain... Done! (PT0.6199261S)
+[23:47:26] [Server thread/INFO] (bingo) GameState changed: loading -> countdown
+[23:47:34] [Server thread/INFO] (bingo) GameState changed: countdown -> playing
+[23:47:35] [Server thread/INFO] (guessbingo) 猜词对局开始：世界种子 7536096611942751269，大厅模式 true
+[23:47:35] [Server thread/INFO] (guessbingo) 已把 1 张 bingo 棋盘换成无法完成的格子
+[23:47:35] [Server thread/INFO] (Minecraft) System chat: ━━━━━━ 猜词 Bingo 开始 ━━━━━━
+[23:47:35] [Server thread/INFO] (Minecraft) System chat: [猜词] 本局共 1 回合，从易到难：难度1×1
+[23:47:35] [Server thread/INFO] (Minecraft) System chat: [猜词] 参赛队伍：红队（1 人）
+[23:47:35] [Server thread/INFO] (Minecraft) System chat: [猜词] 规则：先猜出谜底，再第一个完成它。猜词进度全员共享；谜底揭晓前，即使已经持有对应物品也不算完成。
+[23:47:35] [Server thread/INFO] (Minecraft) System chat: [猜词] 第 1/1 回合 · 难度 ★☆☆☆☆（1 分）· 按 G 猜词
+[23:47:36] [Server thread/INFO] (bingo) Re-drawing map_1 for team red (1.086625800s)
+[23:47:36] [Server thread/WARN] (Minecraft) Can't keep up! Is the server overloaded? Running 2813ms or 56 ticks behind
+[23:47:40] [Server thread/INFO] (Minecraft) System chat: [Player0: Gave 3 [Stone] to Player0]
+[23:47:40] [Server thread/INFO] (Minecraft) System chat: Player0 ■石头|Pre-classic↑|方块|建筑方块 / 自然方块|岩石|2↑|主世界
+[23:47:41] [Server thread/INFO] (Minecraft) System chat: Player0 ■村庄|Beta↑|结构|地表|聚落|2↑|主世界
+[23:47:41] [Server thread/INFO] (Minecraft) System chat: Player0 ■僵尸|Classic↑|实体|敌对生物|亡灵生物|2↑|主世界
+[23:47:43] [Server thread/INFO] (Minecraft) System chat: ━━━━━━ 本局结束 ━━━━━━
+[23:47:43] [Server thread/INFO] (Minecraft) System chat: [猜词] Player0 结束了本局
+[23:47:43] [Server thread/INFO] (Minecraft) System chat: [猜词] 最终比分：红队 0
+[23:47:43] [Server thread/INFO] (Minecraft) System chat: [猜词] 无人得分
+[23:47:44] [Server thread/INFO] (bingo) Writing game result to stats.db...
+[23:47:44] [Server thread/INFO] (bingo) Writing game result to stats.db... - done in 64.875ms!
+[23:47:44] [Server thread/INFO] (bingo) GameState changed: playing -> postgame
+[23:47:44] [Server thread/INFO] (bingo) ┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+[23:47:44] [Server thread/INFO] (bingo)   Stopped by RCON
+[23:47:44] [Server thread/INFO] (bingo)   Game duration: 00m 09s
+[23:47:44] [Server thread/INFO] (bingo)   Seed: [7536096611942751269]
+[23:47:44] [Server thread/INFO] (bingo) ┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+[23:47:44] [Server thread/INFO] (bingo) Storing team bingo_red
+[23:47:49] [Server thread/INFO] (Minecraft) System chat: [Player0: Resetting the game...]
+[23:47:49] [Server thread/INFO] (bingo) Resetting worlds...
+[23:47:49] [Server thread/INFO] (bingo) [Reset] Clearing game data
+[23:47:49] [Server thread/INFO] (bingo) [Reset] Recreating worlds
+[23:47:49] [Server thread/INFO] (bingo) [Reset] Saving...
+[23:47:49] [Server thread/INFO] (bingo) [Reset] Saving... - done in 139.669700ms!
+[23:47:49] [Server thread/INFO] (bingo) [Reset] Closing minecraft:overworld...
+[23:47:49] [Server thread/INFO] (bingo) [Reset] Closing minecraft:overworld... - done in 17.017900ms!
+[23:47:49] [Server thread/INFO] (bingo) [Reset] Closing minecraft:the_end...
+[23:47:49] [Server thread/INFO] (bingo) [Reset] Closing minecraft:the_end... - done in 18.762100ms!
+[23:47:49] [Server thread/INFO] (bingo) [Reset] Closing minecraft:the_nether...
+[23:47:49] [Server thread/INFO] (bingo) [Reset] Closing minecraft:the_nether... - done in 564.1us!
+[23:47:49] [Server thread/INFO] (bingo) [Reset] Closing bingo:lobby...
+[23:47:49] [Server thread/INFO] (bingo) [Reset] Closing bingo:lobby... - done in 18.945800ms!
+[23:47:49] [Server thread/INFO] (bingo) [LobbyWorldService] Preparing the BINGO lobby...
+[23:47:50] [Server thread/INFO] (bingo) [LobbyWorldService] Preparing the BINGO lobby... - done in 342.194800ms!
+[23:47:50] [Server thread/INFO] (bingo) [Reset] Applying random world seed...
+[23:47:50] [Server thread/INFO] (bingo) [Reset] Loading new worlds...
+[23:47:50] [Server thread/INFO] (bingo) [Reset] Loading new worlds... - done in 137.552200ms!
+[23:47:50] [Server thread/INFO] (bingo) [Reset] Done!
+[23:47:50] [Server thread/INFO] (bingo) [CardService] Generating initial cards from game-options.json
+[23:47:50] [Server thread/INFO] (bingo) [CardService] Using random BINGO card seed: 4729584496590208405
+[23:47:50] [Server thread/INFO] (bingo) [UnobtainableTagProvider] Excluding 7 unobtainable items
+[23:47:50] [Server thread/INFO] (bingo) GameState changed: postgame -> pregame
+[23:47:50] [Server thread/INFO] (bingo) [CardService] Generating initial cards from game-options.json
+[23:47:50] [Server thread/INFO] (bingo) [CardService] Using random BINGO card seed: 4729584496590208405
+[23:47:50] [Server thread/INFO] (bingo) [MenuController] Spawning lobby menu at ( 0.000E+0  1.700E+1 -5.000E+0)
+[23:47:50] [Server thread/INFO] (bingo) Resetting worlds... - done in 1.333185500s!
+[23:47:51] [Server thread/INFO] (bingo) Re-drawing map_null for team null (697.195500ms)
+[23:48:01] [Server thread/INFO] (bingo) [TeamChangedEvent] Player Player0 team changed -> bingo_red
+[23:48:01] [Server thread/INFO] (bingo) Creating a map for team bingo_red - mapId=3
+[23:48:05] [Server thread/INFO] (Minecraft) System chat: [Player0: Starting the game...]
+[23:48:05] [Server thread/INFO] (bingo) GameState changed: pregame -> starting
+[23:48:05] [Server thread/INFO] (bingo) [SpreadPlayers] Initialized in dimension minecraft:overworld with coordinateScale=1.0, logicalHeight=384, bottomY=-64, seaLevel=63
+[23:48:05] [Server thread/INFO] (bingo) Spawning team bingo_red near chunk ChunkPosition(x=-3, z=2)
+[23:48:05] [Server thread/INFO] (bingo) ┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+[23:48:05] [Server thread/INFO] (bingo)   BINGO Start!
+[23:48:05] [Server thread/INFO] (bingo)   Mode: Standard
+[23:48:05] [Server thread/INFO] (bingo)   Features: PvP
+[23:48:05] [Server thread/INFO] (bingo)   Goal: 1 line
+[23:48:05] [Server thread/INFO] (bingo)   End When: Never
+[23:48:05] [Server thread/INFO] (bingo)   Difficulty: 0, 0, 0, 9, 16
+[23:48:05] [Server thread/INFO] (bingo)   Filter: Everything
+[23:48:05] [Server thread/INFO] (bingo) ┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+[23:48:06] [Server thread/INFO] (bingo) Using spawn position [-47, 74, 33] for bingo_red
+[23:48:06] [Server thread/INFO] (bingo) GameState changed: starting -> preloading
+[23:48:06] [Server thread/INFO] (bingo) [SpawnPreloadingController] Pre-generating 81 chunks within a view distance of 4...
+[23:48:09] [Server thread/INFO] (bingo) [SpawnPreloadingController] Finished preloading spawn chunks in 2.828612300s
+[23:48:09] [Server thread/INFO] (bingo) GameState changed: preloading -> loading
+[23:48:09] [Server thread/INFO] (bingo) Waiting until all players have loaded spawn terrain...
+[23:48:09] [Server thread/INFO] (bingo) Waiting until all players have loaded spawn terrain... Done! (PT0.3876006S)
+[23:48:09] [Server thread/INFO] (bingo) GameState changed: loading -> countdown
+[23:48:17] [Server thread/INFO] (bingo) GameState changed: countdown -> playing
+[23:48:18] [Server thread/INFO] (guessbingo) 猜词对局开始：世界种子 4729584496590208405，大厅模式 true
+[23:48:18] [Server thread/INFO] (guessbingo) 已把 1 张 bingo 棋盘换成无法完成的格子
+[23:48:18] [Server thread/INFO] (Minecraft) System chat: ━━━━━━ 猜词 Bingo 开始 ━━━━━━
+[23:48:18] [Server thread/INFO] (Minecraft) System chat: [猜词] 本局共 1 回合，从易到难：难度1×1
+[23:48:18] [Server thread/INFO] (Minecraft) System chat: [猜词] 参赛队伍：红队（1 人）
+[23:48:18] [Server thread/INFO] (Minecraft) System chat: [猜词] 规则：先猜出谜底，再第一个完成它。猜词进度全员共享；谜底揭晓前，即使已经持有对应物品也不算完成。
+[23:48:18] [Server thread/INFO] (Minecraft) System chat: [猜词] 第 1/1 回合 · 难度 ★☆☆☆☆（1 分）· 按 G 猜词
+[23:48:37] [Server thread/INFO] (Minecraft) System chat: ━━━━━━ 本局结束 ━━━━━━
+[23:48:37] [Server thread/INFO] (Minecraft) System chat: [猜词] Player0 结束了本局
+[23:48:37] [Server thread/INFO] (Minecraft) System chat: [猜词] 最终比分：红队 0
+[23:48:37] [Server thread/INFO] (Minecraft) System chat: [猜词] 无人得分
+[23:48:37] [Server thread/INFO] (bingo) Writing game result to stats.db...
+[23:48:37] [Server thread/INFO] (bingo) Writing game result to stats.db... - done in 17.317100ms!
+[23:48:37] [Server thread/INFO] (bingo) GameState changed: playing -> postgame
+[23:48:37] [Server thread/INFO] (bingo) ┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+[23:48:37] [Server thread/INFO] (bingo)   Stopped by RCON
+[23:48:37] [Server thread/INFO] (bingo)   Game duration: 00m 19s
+[23:48:37] [Server thread/INFO] (bingo)   Seed: [4729584496590208405]
+[23:48:37] [Server thread/INFO] (bingo) ┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+[23:48:37] [Server thread/INFO] (bingo) Storing team bingo_red
+[23:48:49] [Server thread/INFO] (Minecraft) System chat: [Player0: Stopping the server]
+[23:48:49] [Server thread/INFO] (bingo) [ConnectionFactory] Closing stats data source...
+[23:48:49] [Server thread/INFO] (HikariDataSource) HikariPool-1 - Shutdown initiated...
+[23:48:49] [Server thread/INFO] (HikariDataSource) HikariPool-1 - Shutdown completed.
+[23:48:49] [Server thread/INFO] (Minecraft) Stopping server
+[23:48:49] [Server thread/INFO] (Minecraft) Saving players
+[23:48:49] [Server thread/INFO] (Minecraft) Player0 lost connection: Server closed
+[23:48:49] [Server thread/INFO] (Minecraft) System chat: Player0 left the game
+[23:48:49] [Server thread/INFO] (Minecraft) Saving worlds
+[23:48:52] [Server thread/INFO] (bingo) [ResetOnLeaveController] Last player has disconnected and 'nextRoundWhenEveryoneDisconnects' is true; Resetting...
+[23:48:52] [Server thread/INFO] (bingo) Resetting worlds...
+[23:48:52] [Server thread/INFO] (bingo) [Reset] Clearing game data
+[23:48:52] [Server thread/INFO] (bingo) [Reset] Recreating worlds
+[23:48:52] [Server thread/WARN] (Minecraft) handleDisconnection() called twice
+[23:48:52] [Server thread/INFO] (bingo) [Reset] Saving...
+[23:48:52] [Server thread/INFO] (bingo) [Reset] Saving... - done in 80.037ms!
+[23:48:52] [Server thread/INFO] (bingo) [Reset] Closing minecraft:overworld...
+[23:49:04] [Server thread/INFO] (bingo) [Reset] Closing minecraft:overworld... - done in 12.025679200s!
+[23:49:04] [Server thread/INFO] (bingo) [Reset] Closing minecraft:the_end...
+[23:49:04] [Server thread/INFO] (bingo) [Reset] Closing minecraft:the_end... - done in 15.834400ms!
+[23:49:04] [Server thread/INFO] (bingo) [Reset] Closing minecraft:the_nether...
+[23:49:04] [Server thread/INFO] (bingo) [Reset] Closing minecraft:the_nether... - done in 288.6us!
+[23:49:04] [Server thread/INFO] (bingo) [Reset] Closing bingo:lobby...
+[23:49:04] [Server thread/INFO] (bingo) [Reset] Closing bingo:lobby... - done in 11.487ms!
+[23:49:04] [Server thread/INFO] (bingo) [LobbyWorldService] Preparing the BINGO lobby...
+[23:49:04] [Server thread/INFO] (bingo) [LobbyWorldService] Preparing the BINGO lobby... - done in 205.485500ms!
+[23:49:04] [Server thread/INFO] (bingo) [Reset] Applying random world seed...
+[23:49:04] [Server thread/INFO] (bingo) [Reset] Loading new worlds...
+[23:49:04] [Server thread/INFO] (bingo) [Reset] Loading new worlds... - done in 79.466800ms!
+[23:49:04] [Server thread/INFO] (bingo) [Reset] Done!
+[23:49:04] [Server thread/INFO] (bingo) [CardService] Generating initial cards from game-options.json
+[23:49:04] [Server thread/INFO] (bingo) [CardService] Using random BINGO card seed: 5844002915253762665
+[23:49:05] [Server thread/INFO] (bingo) [UnobtainableTagProvider] Excluding 7 unobtainable items
+[23:49:05] [Server thread/INFO] (bingo) GameState changed: postgame -> pregame
+[23:49:05] [Server thread/INFO] (bingo) [CardService] Generating initial cards from game-options.json
+[23:49:05] [Server thread/INFO] (bingo) [CardService] Using random BINGO card seed: 5844002915253762665
+[23:49:05] [Server thread/INFO] (bingo) [MenuController] Spawning lobby menu at ( 0.000E+0  1.700E+1 -5.000E+0)
+[23:49:05] [Server thread/INFO] (bingo) Re-drawing map_null for team null (1ms)
+[23:49:05] [Server thread/INFO] (bingo) Resetting worlds... - done in 12.784041900s!
+[23:49:05] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[23:49:05] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[23:49:05] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[23:49:05] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[world]'/bingo:lobby
+[23:49:05] [Server thread/INFO] (bingo) [ScopeManager] Closing server scope...
+
+[Incubating] Problems report is available at: file:///C:/Users/chiji/AppData/Local/Claude-Data/claude_pzs8sxrjxfjjc/scratch-workspaces/1a5a3cb0-9bf2-4111-bc6a-901825f5b0ae/263b2f76-8f2d-4a0e-90cc-8b2ce52a28f8/scratch-2026-11-16-0aa583/build/reports/problems/problems-report.html
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 10.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/9.8.1/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD SUCCESSFUL in 4m 18s
+5 actionable tasks: 1 executed, 4 up-to-date
+Consider enabling configuration cache to speed up this build: https://docs.gradle.org/9.8.1/userguide/configuration_cache_enabling.html

@@ -1,0 +1,112 @@
+plugins {
+	id 'net.fabricmc.fabric-loom' version "${loom_version}"
+}
+
+repositories {
+    maven {
+        name = "Yet Another Bingo"
+        url = "https://gitlab.com/api/v4/projects/48318565/packages/maven"
+        content {
+            includeGroup("me.jfenn.bingo")
+        }
+    }
+}
+
+base {
+	archivesName = 'guessbingo'
+}
+
+loom {
+	splitEnvironmentSourceSets()
+
+	mods {
+		"guessbingo" {
+            sourceSet sourceSets.main
+            sourceSet sourceSets.client
+		}
+	}
+}
+
+// 游戏内自动化测试（src/gametest）：
+//   gradle runGameTest         启动一个无界面的测试服务器，跑完服务端的端到端测试后自动退出
+//   gradle runClientGameTest   启动一个真实的游戏窗口，进入单人世界并截下面板与对话框的截图
+// bingo 是硬前置（fabric.mod.json depends），测试环境始终加载 libs/bingo-2.15.1+mc26.3.jar。
+fabricApi {
+	configureTests {
+		createSourceSet = true
+		modId = "guessbingo-gametest"
+		enableGameTests = true
+		enableClientGameTests = true
+		eula = false
+	}
+}
+
+// 每次都从干净的世界开始：bingo 和本模组都会把对局状态存进存档，残留的状态会让测试从半局开始
+tasks.matching { it.name == 'runGameTest' }.configureEach {
+	doFirst {
+		delete layout.buildDirectory.dir('run/gameTest')
+	}
+}
+// 客户端测试用 1920x1080 的窗口，截图才接近真实的显示效果
+loom.runs.matching { it.name == 'clientGameTest' }.configureEach {
+	programArgs '--width', '1920', '--height', '1080'
+	// -PlobbyServer=地址:端口：改为连接一台已经启动的专用服务器，做 bingo 大厅模式的整机测试
+	if (project.hasProperty('lobbyServer')) {
+		vmArg "-Dguessbingo.lobbyServer=${project.property('lobbyServer')}"
+	}
+}
+tasks.matching { it.name == 'runClientGameTest' }.configureEach {
+	doFirst {
+		delete layout.buildDirectory.dir('run/clientGameTest')
+	}
+}
+
+dependencies {
+	minecraft "com.mojang:minecraft:${project.minecraft_version}"
+	implementation "net.fabricmc:fabric-loader:${project.loader_version}"
+	implementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_api_version}"
+
+	implementation files('libs/kotlin-stdlib-2.3.21.jar', 'libs/bingo-2.15.1+mc26.3.jar')
+
+	compileOnly files('libs/jei-26.3-fabric-31.17.0.113.jar', 'libs/mezzz_config-26.3-fabric-0.7.1.jar')
+	runtimeOnly files('libs/jei-26.3-fabric-31.17.0.113.jar', 'libs/mezzz_config-26.3-fabric-0.7.1.jar')
+
+	/*
+    //implementation files('libs/bingo-api-2.15.1.jar')
+    implementation "me.jfenn.bingo:api:2.15.1"
+	// Yet Another Minecraft BINGO 的公开 API（仅编译期使用，运行时由 bingo 模组自身提供）
+	compileOnly files('libs/bingo-api-2.15.1.jar', 'libs/kotlin-stdlib-2.3.21.jar')
+	// bingo 是硬前置（见 src/main/resources/fabric.mod.json 的 depends），dev 运行必须加载模组本体
+	runtimeOnly files('libs/bingo-2.15.1+mc26.3.jar')
+
+	gametestCompileOnly files('libs/bingo-api-2.15.1.jar', 'libs/kotlin-stdlib-2.3.21.jar')
+	gametestRuntimeOnly files('libs/bingo-2.15.1+mc26.3.jar')
+
+	 */
+
+	testImplementation 'org.junit.jupiter:junit-jupiter:5.11.4'
+	testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+}
+
+test {
+	useJUnitPlatform()
+}
+
+processResources {
+	def version = project.version
+	inputs.property "version", version
+
+	filesMatching("fabric.mod.json") {
+		expand "version": version
+	}
+}
+
+tasks.withType(JavaCompile).configureEach {
+	it.options.release = 25
+	it.options.encoding = 'UTF-8'
+}
+
+java {
+	sourceCompatibility = JavaVersion.VERSION_25
+	targetCompatibility = JavaVersion.VERSION_25
+}

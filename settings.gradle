@@ -1,0 +1,18 @@
+pluginManagement {
+	repositories {
+		maven {
+			name = 'Fabric'
+			url = 'https://maven.fabricmc.net/'
+		}
+		mavenCentral()
+		gradlePluginPortal()
+	}
+}
+
+rootProject.name = 'guessbingo'
+
+// 本机的全局 init.gradle 可能把仓库模式设为 PREFER_SETTINGS，那样 Loom 在工程级添加的
+// Fabric / Mojang 仓库会被忽略。这里在其之后改回 PREFER_PROJECT，保证依赖能解析。
+gradle.settingsEvaluated { s ->
+	s.dependencyResolutionManagement.repositoriesMode.set(RepositoriesMode.PREFER_PROJECT)
+}

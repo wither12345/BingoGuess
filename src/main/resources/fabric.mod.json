@@ -1,0 +1,32 @@
+{
+	"schemaVersion": 1,
+	"id": "guessbingo",
+	"version": "${version}",
+	"name": "猜词 Bingo",
+	"description": "把猜词与 Bingo 挑战结合：全员共享猜词进度，先猜出谜底，再在游戏里第一个完成它。",
+	"authors": [],
+	"license": "MIT",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"dev.guessbingo.GuessBingo"
+		],
+		"client": [
+			"dev.guessbingo.client.GuessBingoClient"
+		]
+	},
+	"mixins": [
+		"guessbingo.mixins.json",
+        {
+          "config": "guessbingo.client.mixins.json",
+          "environment": "client"
+        }
+	],
+	"depends": {
+		"fabricloader": ">=0.19.0",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*",
+		"yet-another-minecraft-bingo": ">=2.15.0"
+	}
+}
