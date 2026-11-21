@@ -1,0 +1,20 @@
+{
+  "id": "minecraft:tall_dry_grass",
+  "type": "block",
+  "difficulty": 4,
+  "version": {
+    "version": "1.21.5",
+    "sequence": 98,
+    "major": 27,
+    "minor": 5
+  },
+  "major_tag": [
+    "自然方块"
+  ],
+  "sub_tag": [
+    "植物"
+  ],
+  "dimension": [
+    "minecraft:overworld"
+  ]
+}

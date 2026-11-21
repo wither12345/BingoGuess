@@ -1,0 +1,20 @@
+{
+  "id": "minecraft:mansion",
+  "type": "structure",
+  "difficulty": 5,
+  "version": {
+    "version": "1.11",
+    "sequence": 53,
+    "major": 17,
+    "minor": 0
+  },
+  "major_tag": [
+    "地表"
+  ],
+  "sub_tag": [
+    "建筑"
+  ],
+  "dimension": [
+    "minecraft:overworld"
+  ]
+}

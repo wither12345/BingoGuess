@@ -1,0 +1,20 @@
+{
+  "id": "minecraft:nether/create_full_beacon",
+  "type": "advancement",
+  "difficulty": 5,
+  "version": {
+    "version": "1.12",
+    "sequence": 56,
+    "major": 18,
+    "minor": 0
+  },
+  "major_tag": [
+    "下界"
+  ],
+  "sub_tag": [
+    "目标"
+  ],
+  "dimension": [
+    "minecraft:the_nether"
+  ]
+}

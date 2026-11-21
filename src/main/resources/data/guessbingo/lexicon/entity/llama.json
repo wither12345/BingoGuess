@@ -1,0 +1,21 @@
+{
+  "id": "minecraft:llama",
+  "type": "entity",
+  "difficulty": 2,
+  "version": {
+    "version": "1.11",
+    "sequence": 53,
+    "major": 17,
+    "minor": 0
+  },
+  "major_tag": [
+    "中立生物"
+  ],
+  "sub_tag": [
+    "动物",
+    "可驯服"
+  ],
+  "dimension": [
+    "minecraft:overworld"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "minecraft:orange_candle",
+  "type": "block",
+  "difficulty": 4,
+  "version": {
+    "version": "1.17",
+    "sequence": 76,
+    "major": 23,
+    "minor": 0
+  },
+  "major_tag": [
+    "染色方块",
+    "功能方块"
+  ],
+  "sub_tag": [
+    "蜡烛"
+  ],
+  "dimension": [
+    "minecraft:overworld"
+  ]
+}

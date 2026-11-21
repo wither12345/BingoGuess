@@ -1,0 +1,22 @@
+{
+  "id": "minecraft:conduit_power",
+  "type": "mob_effect",
+  "difficulty": 4,
+  "version": {
+    "version": "1.13",
+    "sequence": 59,
+    "major": 19,
+    "minor": 0
+  },
+  "major_tag": [
+    "正面效果"
+  ],
+  "sub_tag": [
+    "水下",
+    "挖掘",
+    "视野"
+  ],
+  "dimension": [
+    "minecraft:overworld"
+  ]
+}

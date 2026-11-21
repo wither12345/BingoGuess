@@ -1,0 +1,20 @@
+{
+  "id": "minecraft:gilded_blackstone",
+  "type": "block",
+  "difficulty": 4,
+  "version": {
+    "version": "1.16",
+    "sequence": 70,
+    "major": 22,
+    "minor": 0
+  },
+  "major_tag": [
+    "建筑方块"
+  ],
+  "sub_tag": [
+    "岩石"
+  ],
+  "dimension": [
+    "minecraft:the_nether"
+  ]
+}

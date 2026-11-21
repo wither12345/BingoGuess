@@ -1,0 +1,22 @@
+{
+  "id": "minecraft:tipped_arrow.effect.turtle_master",
+  "type": "item",
+  "difficulty": 4,
+  "version": {
+    "version": "1.13",
+    "sequence": 59,
+    "major": 19,
+    "minor": 0
+  },
+  "major_tag": [
+    "战斗用品"
+  ],
+  "sub_tag": [
+    "箭"
+  ],
+  "dimension": [
+    "minecraft:overworld",
+    "minecraft:the_nether",
+    "minecraft:the_end"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "id": "minecraft:wooden_sword",
+  "type": "item",
+  "difficulty": 1,
+  "version": {
+    "version": "Indev",
+    "sequence": 2,
+    "major": 2,
+    "minor": 0
+  },
+  "major_tag": [
+    "战斗用品"
+  ],
+  "sub_tag": [
+    "剑"
+  ],
+  "dimension": [
+    "minecraft:overworld"
+  ]
+}

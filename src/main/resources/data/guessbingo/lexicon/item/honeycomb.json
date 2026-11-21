@@ -1,0 +1,20 @@
+{
+  "id": "minecraft:honeycomb",
+  "type": "item",
+  "difficulty": 4,
+  "version": {
+    "version": "1.15",
+    "sequence": 67,
+    "major": 21,
+    "minor": 0
+  },
+  "major_tag": [
+    "原材料"
+  ],
+  "sub_tag": [
+    "合成材料"
+  ],
+  "dimension": [
+    "minecraft:overworld"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "minecraft:sweet_berries",
+  "type": "item",
+  "difficulty": 2,
+  "version": {
+    "version": "1.14",
+    "sequence": 62,
+    "major": 20,
+    "minor": 0
+  },
+  "major_tag": [
+    "自然方块",
+    "食物与饮品"
+  ],
+  "sub_tag": [
+    "食物"
+  ],
+  "dimension": [
+    "minecraft:overworld"
+  ]
+}

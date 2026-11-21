@@ -1,0 +1,20 @@
+{
+  "id": "minecraft:red_shrub",
+  "type": "block",
+  "difficulty": 4,
+  "version": {
+    "version": "26.3",
+    "sequence": 109,
+    "major": 30,
+    "minor": 0
+  },
+  "major_tag": [
+    "自然方块"
+  ],
+  "sub_tag": [
+    "植物"
+  ],
+  "dimension": [
+    "minecraft:overworld"
+  ]
+}

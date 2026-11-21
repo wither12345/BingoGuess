@@ -1,0 +1,22 @@
+{
+  "id": "minecraft:endermite",
+  "type": "entity",
+  "difficulty": 3,
+  "version": {
+    "version": "1.8",
+    "sequence": 35,
+    "major": 14,
+    "minor": 0
+  },
+  "major_tag": [
+    "敌对生物"
+  ],
+  "sub_tag": [
+    "节肢生物"
+  ],
+  "dimension": [
+    "minecraft:overworld",
+    "minecraft:the_nether",
+    "minecraft:the_end"
+  ]
+}

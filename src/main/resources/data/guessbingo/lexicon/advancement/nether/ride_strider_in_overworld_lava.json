@@ -1,0 +1,21 @@
+{
+  "id": "minecraft:nether/ride_strider_in_overworld_lava",
+  "type": "advancement",
+  "difficulty": 5,
+  "version": {
+    "version": "1.18",
+    "sequence": 78,
+    "major": 24,
+    "minor": 0
+  },
+  "major_tag": [
+    "下界"
+  ],
+  "sub_tag": [
+    "任务"
+  ],
+  "dimension": [
+    "minecraft:overworld",
+    "minecraft:the_nether"
+  ]
+}

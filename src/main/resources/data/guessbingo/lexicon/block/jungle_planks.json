@@ -1,0 +1,20 @@
+{
+  "id": "minecraft:jungle_planks",
+  "type": "block",
+  "difficulty": 2,
+  "version": {
+    "version": "1.2.4",
+    "sequence": 11,
+    "major": 8,
+    "minor": 4
+  },
+  "major_tag": [
+    "建筑方块"
+  ],
+  "sub_tag": [
+    "木板"
+  ],
+  "dimension": [
+    "minecraft:overworld"
+  ]
+}

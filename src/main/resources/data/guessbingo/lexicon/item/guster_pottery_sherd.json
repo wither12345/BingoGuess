@@ -1,0 +1,20 @@
+{
+  "id": "minecraft:guster_pottery_sherd",
+  "type": "item",
+  "difficulty": 3,
+  "version": {
+    "version": "1.20.5",
+    "sequence": 91,
+    "major": 26,
+    "minor": 5
+  },
+  "major_tag": [
+    "原材料"
+  ],
+  "sub_tag": [
+    "陶片"
+  ],
+  "dimension": [
+    "minecraft:overworld"
+  ]
+}

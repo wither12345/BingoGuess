@@ -1,0 +1,21 @@
+{
+  "id": "minecraft:bone",
+  "type": "item",
+  "difficulty": 2,
+  "version": {
+    "version": "Beta",
+    "sequence": 5,
+    "major": 5,
+    "minor": 0
+  },
+  "major_tag": [
+    "原材料"
+  ],
+  "sub_tag": [
+    "合成材料"
+  ],
+  "dimension": [
+    "minecraft:overworld",
+    "minecraft:the_nether"
+  ]
+}

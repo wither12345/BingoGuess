@@ -1,0 +1,20 @@
+{
+  "id": "minecraft:sulfur_cube",
+  "type": "entity",
+  "difficulty": 3,
+  "version": {
+    "version": "26.2",
+    "sequence": 108,
+    "major": 29,
+    "minor": 0
+  },
+  "major_tag": [
+    "友好生物"
+  ],
+  "sub_tag": [
+    "无"
+  ],
+  "dimension": [
+    "minecraft:overworld"
+  ]
+}

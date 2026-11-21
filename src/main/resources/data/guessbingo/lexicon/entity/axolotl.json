@@ -1,0 +1,21 @@
+{
+  "id": "minecraft:axolotl",
+  "type": "entity",
+  "difficulty": 3,
+  "version": {
+    "version": "1.17",
+    "sequence": 76,
+    "major": 23,
+    "minor": 0
+  },
+  "major_tag": [
+    "友好生物"
+  ],
+  "sub_tag": [
+    "水生生物",
+    "动物"
+  ],
+  "dimension": [
+    "minecraft:overworld"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "minecraft:brown_banner",
+  "type": "block",
+  "difficulty": 3,
+  "version": {
+    "version": "1.8",
+    "sequence": 35,
+    "major": 14,
+    "minor": 0
+  },
+  "major_tag": [
+    "染色方块",
+    "功能方块"
+  ],
+  "sub_tag": [
+    "旗帜"
+  ],
+  "dimension": [
+    "minecraft:overworld"
+  ]
+}

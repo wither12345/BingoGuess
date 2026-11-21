@@ -1,0 +1,20 @@
+{
+  "id": "minecraft:adventure/heart_transplanter",
+  "type": "advancement",
+  "difficulty": 5,
+  "version": {
+    "version": "1.21.6",
+    "sequence": 99,
+    "major": 27,
+    "minor": 6
+  },
+  "major_tag": [
+    "冒险"
+  ],
+  "sub_tag": [
+    "任务"
+  ],
+  "dimension": [
+    "minecraft:overworld"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "id": "minecraft:bamboo_door",
+  "type": "block",
+  "difficulty": 4,
+  "version": {
+    "version": "1.19.3",
+    "sequence": 84,
+    "major": 25,
+    "minor": 3
+  },
+  "major_tag": [
+    "建筑方块"
+  ],
+  "sub_tag": [
+    "门"
+  ],
+  "dimension": [
+    "minecraft:overworld"
+  ]
+}

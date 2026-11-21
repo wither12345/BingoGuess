@@ -1,0 +1,20 @@
+{
+  "id": "minecraft:witch",
+  "type": "entity",
+  "difficulty": 2,
+  "version": {
+    "version": "1.4.2",
+    "sequence": 15,
+    "major": 10,
+    "minor": 2
+  },
+  "major_tag": [
+    "敌对生物"
+  ],
+  "sub_tag": [
+    "无"
+  ],
+  "dimension": [
+    "minecraft:overworld"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "id": "minecraft:adventure/hero_of_the_village",
+  "type": "advancement",
+  "difficulty": 5,
+  "version": {
+    "version": "1.14",
+    "sequence": 62,
+    "major": 20,
+    "minor": 0
+  },
+  "major_tag": [
+    "冒险"
+  ],
+  "sub_tag": [
+    "挑战"
+  ],
+  "dimension": [
+    "minecraft:overworld"
+  ]
+}

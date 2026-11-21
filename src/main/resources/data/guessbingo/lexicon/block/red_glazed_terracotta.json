@@ -1,0 +1,20 @@
+{
+  "id": "minecraft:red_glazed_terracotta",
+  "type": "block",
+  "difficulty": 2,
+  "version": {
+    "version": "1.12",
+    "sequence": 56,
+    "major": 18,
+    "minor": 0
+  },
+  "major_tag": [
+    "染色方块"
+  ],
+  "sub_tag": [
+    "带釉陶瓦"
+  ],
+  "dimension": [
+    "minecraft:overworld"
+  ]
+}

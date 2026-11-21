@@ -1,0 +1,20 @@
+{
+  "id": "minecraft:yellow_bundle",
+  "type": "item",
+  "difficulty": 1,
+  "version": {
+    "version": "1.21.2",
+    "sequence": 95,
+    "major": 27,
+    "minor": 2
+  },
+  "major_tag": [
+    "工具与实用物品"
+  ],
+  "sub_tag": [
+    "收纳"
+  ],
+  "dimension": [
+    "minecraft:overworld"
+  ]
+}

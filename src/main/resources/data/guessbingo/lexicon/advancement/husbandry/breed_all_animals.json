@@ -1,0 +1,21 @@
+{
+  "id": "minecraft:husbandry/breed_all_animals",
+  "type": "advancement",
+  "difficulty": 5,
+  "version": {
+    "version": "1.12",
+    "sequence": 56,
+    "major": 18,
+    "minor": 0
+  },
+  "major_tag": [
+    "农牧业"
+  ],
+  "sub_tag": [
+    "挑战"
+  ],
+  "dimension": [
+    "minecraft:overworld",
+    "minecraft:the_nether"
+  ]
+}

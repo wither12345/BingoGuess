@@ -1,0 +1,20 @@
+{
+  "id": "minecraft:hero_of_the_village",
+  "type": "mob_effect",
+  "difficulty": 4,
+  "version": {
+    "version": "1.14",
+    "sequence": 62,
+    "major": 20,
+    "minor": 0
+  },
+  "major_tag": [
+    "正面效果"
+  ],
+  "sub_tag": [
+    "村民交易"
+  ],
+  "dimension": [
+    "minecraft:overworld"
+  ]
+}

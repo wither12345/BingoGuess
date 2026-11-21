@@ -1,0 +1,22 @@
+{
+  "id": "minecraft:multishot",
+  "type": "enchantment",
+  "difficulty": 3,
+  "version": {
+    "version": "1.14",
+    "sequence": 62,
+    "major": 20,
+    "minor": 0
+  },
+  "major_tag": [
+    "武器"
+  ],
+  "sub_tag": [
+    "弩"
+  ],
+  "dimension": [
+    "minecraft:overworld",
+    "minecraft:the_nether",
+    "minecraft:the_end"
+  ]
+}

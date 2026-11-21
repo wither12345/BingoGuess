@@ -1,0 +1,21 @@
+{
+  "id": "minecraft:sulfur_cube_bucket",
+  "type": "item",
+  "difficulty": 4,
+  "version": {
+    "version": "26.2",
+    "sequence": 108,
+    "major": 29,
+    "minor": 0
+  },
+  "major_tag": [
+    "工具与实用物品"
+  ],
+  "sub_tag": [
+    "桶",
+    "生物容器"
+  ],
+  "dimension": [
+    "minecraft:overworld"
+  ]
+}

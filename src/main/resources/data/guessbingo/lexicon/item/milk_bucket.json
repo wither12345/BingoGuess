@@ -1,0 +1,22 @@
+{
+  "id": "minecraft:milk_bucket",
+  "type": "item",
+  "difficulty": 2,
+  "version": {
+    "version": "Alpha",
+    "sequence": 4,
+    "major": 4,
+    "minor": 0
+  },
+  "major_tag": [
+    "工具与实用物品",
+    "食物与饮品"
+  ],
+  "sub_tag": [
+    "桶",
+    "饮品"
+  ],
+  "dimension": [
+    "minecraft:overworld"
+  ]
+}

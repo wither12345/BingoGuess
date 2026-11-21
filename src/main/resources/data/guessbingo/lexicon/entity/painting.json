@@ -1,0 +1,21 @@
+{
+  "id": "minecraft:painting",
+  "type": "entity",
+  "difficulty": 1,
+  "version": {
+    "version": "Indev",
+    "sequence": 2,
+    "major": 2,
+    "minor": 0
+  },
+  "major_tag": [
+    "非生物"
+  ],
+  "sub_tag": [
+    "装饰实体",
+    "绘画"
+  ],
+  "dimension": [
+    "minecraft:overworld"
+  ]
+}

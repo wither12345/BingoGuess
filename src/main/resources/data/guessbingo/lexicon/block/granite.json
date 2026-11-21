@@ -1,0 +1,21 @@
+{
+  "id": "minecraft:granite",
+  "type": "block",
+  "difficulty": 1,
+  "version": {
+    "version": "1.8",
+    "sequence": 35,
+    "major": 14,
+    "minor": 0
+  },
+  "major_tag": [
+    "建筑方块",
+    "自然方块"
+  ],
+  "sub_tag": [
+    "岩石"
+  ],
+  "dimension": [
+    "minecraft:overworld"
+  ]
+}

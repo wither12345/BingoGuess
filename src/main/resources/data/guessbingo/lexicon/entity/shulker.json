@@ -1,0 +1,20 @@
+{
+  "id": "minecraft:shulker",
+  "type": "entity",
+  "difficulty": 5,
+  "version": {
+    "version": "1.9",
+    "sequence": 45,
+    "major": 15,
+    "minor": 0
+  },
+  "major_tag": [
+    "敌对生物"
+  ],
+  "sub_tag": [
+    "无"
+  ],
+  "dimension": [
+    "minecraft:the_end"
+  ]
+}

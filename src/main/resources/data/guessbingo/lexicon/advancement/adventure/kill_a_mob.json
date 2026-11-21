@@ -1,0 +1,22 @@
+{
+  "id": "minecraft:adventure/kill_a_mob",
+  "type": "advancement",
+  "difficulty": 1,
+  "version": {
+    "version": "1.12",
+    "sequence": 56,
+    "major": 18,
+    "minor": 0
+  },
+  "major_tag": [
+    "冒险"
+  ],
+  "sub_tag": [
+    "任务"
+  ],
+  "dimension": [
+    "minecraft:overworld",
+    "minecraft:the_nether",
+    "minecraft:the_end"
+  ]
+}

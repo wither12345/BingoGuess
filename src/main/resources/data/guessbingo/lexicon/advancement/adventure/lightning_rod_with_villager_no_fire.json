@@ -1,0 +1,20 @@
+{
+  "id": "minecraft:adventure/lightning_rod_with_villager_no_fire",
+  "type": "advancement",
+  "difficulty": 3,
+  "version": {
+    "version": "1.17",
+    "sequence": 76,
+    "major": 23,
+    "minor": 0
+  },
+  "major_tag": [
+    "冒险"
+  ],
+  "sub_tag": [
+    "任务"
+  ],
+  "dimension": [
+    "minecraft:overworld"
+  ]
+}

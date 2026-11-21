@@ -1,0 +1,20 @@
+{
+  "id": "minecraft:bamboo_trapdoor",
+  "type": "block",
+  "difficulty": 4,
+  "version": {
+    "version": "1.19.3",
+    "sequence": 84,
+    "major": 25,
+    "minor": 3
+  },
+  "major_tag": [
+    "建筑方块"
+  ],
+  "sub_tag": [
+    "活板门"
+  ],
+  "dimension": [
+    "minecraft:overworld"
+  ]
+}

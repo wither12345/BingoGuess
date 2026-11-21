@@ -1,0 +1,21 @@
+{
+  "id": "minecraft:tnt_minecart",
+  "type": "entity",
+  "difficulty": 3,
+  "version": {
+    "version": "1.5",
+    "sequence": 20,
+    "major": 11,
+    "minor": 0
+  },
+  "major_tag": [
+    "非生物"
+  ],
+  "sub_tag": [
+    "载具",
+    "矿车"
+  ],
+  "dimension": [
+    "minecraft:overworld"
+  ]
+}

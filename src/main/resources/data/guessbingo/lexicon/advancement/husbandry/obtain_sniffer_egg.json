@@ -1,0 +1,20 @@
+{
+  "id": "minecraft:husbandry/obtain_sniffer_egg",
+  "type": "advancement",
+  "difficulty": 4,
+  "version": {
+    "version": "1.20",
+    "sequence": 86,
+    "major": 26,
+    "minor": 0
+  },
+  "major_tag": [
+    "农牧业"
+  ],
+  "sub_tag": [
+    "任务"
+  ],
+  "dimension": [
+    "minecraft:overworld"
+  ]
+}

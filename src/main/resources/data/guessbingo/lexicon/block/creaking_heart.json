@@ -1,0 +1,20 @@
+{
+  "id": "minecraft:creaking_heart",
+  "type": "block",
+  "difficulty": 4,
+  "version": {
+    "version": "1.21.2",
+    "sequence": 95,
+    "major": 27,
+    "minor": 2
+  },
+  "major_tag": [
+    "刷怪蛋"
+  ],
+  "sub_tag": [
+    "生物来源"
+  ],
+  "dimension": [
+    "minecraft:overworld"
+  ]
+}

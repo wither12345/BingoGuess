@@ -1,0 +1,21 @@
+{
+  "id": "minecraft:golden_dandelion",
+  "type": "block",
+  "difficulty": 3,
+  "version": {
+    "version": "26.1",
+    "sequence": 105,
+    "major": 28,
+    "minor": 0
+  },
+  "major_tag": [
+    "食物与饮品"
+  ],
+  "sub_tag": [
+    "花"
+  ],
+  "dimension": [
+    "minecraft:overworld",
+    "minecraft:the_nether"
+  ]
+}

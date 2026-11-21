@@ -1,0 +1,21 @@
+{
+  "id": "minecraft:end_city",
+  "type": "structure",
+  "difficulty": 5,
+  "version": {
+    "version": "1.9",
+    "sequence": 45,
+    "major": 15,
+    "minor": 0
+  },
+  "major_tag": [
+    "地表",
+    "空中"
+  ],
+  "sub_tag": [
+    "城市"
+  ],
+  "dimension": [
+    "minecraft:the_end"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "id": "minecraft:jungle_pyramid",
+  "type": "structure",
+  "difficulty": 3,
+  "version": {
+    "version": "1.3.1",
+    "sequence": 13,
+    "major": 9,
+    "minor": 1
+  },
+  "major_tag": [
+    "地表"
+  ],
+  "sub_tag": [
+    "神庙"
+  ],
+  "dimension": [
+    "minecraft:overworld"
+  ]
+}

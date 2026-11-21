@@ -1,0 +1,20 @@
+{
+  "id": "minecraft:fishing_rod",
+  "type": "item",
+  "difficulty": 2,
+  "version": {
+    "version": "Alpha",
+    "sequence": 4,
+    "major": 4,
+    "minor": 0
+  },
+  "major_tag": [
+    "工具与实用物品"
+  ],
+  "sub_tag": [
+    "钓鱼竿"
+  ],
+  "dimension": [
+    "minecraft:overworld"
+  ]
+}

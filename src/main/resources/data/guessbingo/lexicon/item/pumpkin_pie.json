@@ -1,0 +1,20 @@
+{
+  "id": "minecraft:pumpkin_pie",
+  "type": "item",
+  "difficulty": 3,
+  "version": {
+    "version": "1.4.2",
+    "sequence": 15,
+    "major": 10,
+    "minor": 2
+  },
+  "major_tag": [
+    "食物与饮品"
+  ],
+  "sub_tag": [
+    "食物"
+  ],
+  "dimension": [
+    "minecraft:overworld"
+  ]
+}

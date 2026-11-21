@@ -1,0 +1,20 @@
+{
+  "id": "minecraft:deepslate_tile_stairs",
+  "type": "block",
+  "difficulty": 1,
+  "version": {
+    "version": "1.17",
+    "sequence": 76,
+    "major": 23,
+    "minor": 0
+  },
+  "major_tag": [
+    "建筑方块"
+  ],
+  "sub_tag": [
+    "楼梯"
+  ],
+  "dimension": [
+    "minecraft:overworld"
+  ]
+}

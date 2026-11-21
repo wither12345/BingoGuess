@@ -1,0 +1,22 @@
+{
+  "id": "minecraft:thorns",
+  "type": "enchantment",
+  "difficulty": 3,
+  "version": {
+    "version": "1.4.6",
+    "sequence": 18,
+    "major": 10,
+    "minor": 6
+  },
+  "major_tag": [
+    "装备"
+  ],
+  "sub_tag": [
+    "盔甲"
+  ],
+  "dimension": [
+    "minecraft:overworld",
+    "minecraft:the_nether",
+    "minecraft:the_end"
+  ]
+}

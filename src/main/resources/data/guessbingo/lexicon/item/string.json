@@ -1,0 +1,22 @@
+{
+  "id": "minecraft:string",
+  "type": "item",
+  "difficulty": 2,
+  "version": {
+    "version": "Indev",
+    "sequence": 2,
+    "major": 2,
+    "minor": 0
+  },
+  "major_tag": [
+    "红石方块",
+    "原材料"
+  ],
+  "sub_tag": [
+    "合成材料"
+  ],
+  "dimension": [
+    "minecraft:overworld",
+    "minecraft:the_nether"
+  ]
+}

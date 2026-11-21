@@ -1,0 +1,20 @@
+{
+  "id": "minecraft:ominous_bottle",
+  "type": "item",
+  "difficulty": 4,
+  "version": {
+    "version": "1.20.5",
+    "sequence": 91,
+    "major": 26,
+    "minor": 5
+  },
+  "major_tag": [
+    "食物与饮品"
+  ],
+  "sub_tag": [
+    "饮品"
+  ],
+  "dimension": [
+    "minecraft:overworld"
+  ]
+}

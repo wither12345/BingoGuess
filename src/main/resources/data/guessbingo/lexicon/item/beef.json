@@ -1,0 +1,20 @@
+{
+  "id": "minecraft:beef",
+  "type": "item",
+  "difficulty": 1,
+  "version": {
+    "version": "Beta",
+    "sequence": 5,
+    "major": 5,
+    "minor": 0
+  },
+  "major_tag": [
+    "食物与饮品"
+  ],
+  "sub_tag": [
+    "食物"
+  ],
+  "dimension": [
+    "minecraft:overworld"
+  ]
+}

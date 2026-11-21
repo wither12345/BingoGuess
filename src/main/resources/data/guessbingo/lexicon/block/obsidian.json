@@ -1,0 +1,22 @@
+{
+  "id": "minecraft:obsidian",
+  "type": "block",
+  "difficulty": 3,
+  "version": {
+    "version": "Classic",
+    "sequence": 1,
+    "major": 1,
+    "minor": 0
+  },
+  "major_tag": [
+    "自然方块"
+  ],
+  "sub_tag": [
+    "岩石"
+  ],
+  "dimension": [
+    "minecraft:overworld",
+    "minecraft:the_nether",
+    "minecraft:the_end"
+  ]
+}

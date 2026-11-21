@@ -1,0 +1,20 @@
+{
+  "id": "minecraft:straw_bed",
+  "type": "block",
+  "difficulty": 2,
+  "version": {
+    "version": "26.3",
+    "sequence": 109,
+    "major": 30,
+    "minor": 0
+  },
+  "major_tag": [
+    "功能方块"
+  ],
+  "sub_tag": [
+    "床"
+  ],
+  "dimension": [
+    "minecraft:overworld"
+  ]
+}

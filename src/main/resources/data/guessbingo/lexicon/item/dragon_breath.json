@@ -1,0 +1,20 @@
+{
+  "id": "minecraft:dragon_breath",
+  "type": "item",
+  "difficulty": 5,
+  "version": {
+    "version": "1.9",
+    "sequence": 45,
+    "major": 15,
+    "minor": 0
+  },
+  "major_tag": [
+    "原材料"
+  ],
+  "sub_tag": [
+    "酿造材料"
+  ],
+  "dimension": [
+    "minecraft:the_end"
+  ]
+}

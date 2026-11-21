@@ -1,0 +1,21 @@
+{
+  "id": "minecraft:shroomlight",
+  "type": "block",
+  "difficulty": 3,
+  "version": {
+    "version": "1.16",
+    "sequence": 70,
+    "major": 22,
+    "minor": 0
+  },
+  "major_tag": [
+    "自然方块",
+    "功能方块"
+  ],
+  "sub_tag": [
+    "光源"
+  ],
+  "dimension": [
+    "minecraft:the_nether"
+  ]
+}

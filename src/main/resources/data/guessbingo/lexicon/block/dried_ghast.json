@@ -1,0 +1,20 @@
+{
+  "id": "minecraft:dried_ghast",
+  "type": "block",
+  "difficulty": 3,
+  "version": {
+    "version": "1.21.6",
+    "sequence": 99,
+    "major": 27,
+    "minor": 6
+  },
+  "major_tag": [
+    "自然方块"
+  ],
+  "sub_tag": [
+    "生物来源"
+  ],
+  "dimension": [
+    "minecraft:the_nether"
+  ]
+}

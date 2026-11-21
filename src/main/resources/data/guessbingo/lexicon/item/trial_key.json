@@ -1,0 +1,20 @@
+{
+  "id": "minecraft:trial_key",
+  "type": "item",
+  "difficulty": 5,
+  "version": {
+    "version": "1.20.3",
+    "sequence": 89,
+    "major": 26,
+    "minor": 3
+  },
+  "major_tag": [
+    "原材料"
+  ],
+  "sub_tag": [
+    "钥匙"
+  ],
+  "dimension": [
+    "minecraft:overworld"
+  ]
+}

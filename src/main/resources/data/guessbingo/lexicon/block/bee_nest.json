@@ -1,0 +1,21 @@
+{
+  "id": "minecraft:bee_nest",
+  "type": "block",
+  "difficulty": 3,
+  "version": {
+    "version": "1.15",
+    "sequence": 67,
+    "major": 21,
+    "minor": 0
+  },
+  "major_tag": [
+    "自然方块",
+    "功能方块"
+  ],
+  "sub_tag": [
+    "蜂巢"
+  ],
+  "dimension": [
+    "minecraft:overworld"
+  ]
+}

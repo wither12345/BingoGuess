@@ -1,0 +1,21 @@
+{
+  "id": "minecraft:poplar_boat",
+  "type": "entity",
+  "difficulty": 1,
+  "version": {
+    "version": "26.3",
+    "sequence": 109,
+    "major": 30,
+    "minor": 0
+  },
+  "major_tag": [
+    "非生物"
+  ],
+  "sub_tag": [
+    "载具",
+    "船"
+  ],
+  "dimension": [
+    "minecraft:overworld"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "id": "minecraft:ocelot",
+  "type": "entity",
+  "difficulty": 3,
+  "version": {
+    "version": "1.2.1",
+    "sequence": 8,
+    "major": 8,
+    "minor": 1
+  },
+  "major_tag": [
+    "友好生物"
+  ],
+  "sub_tag": [
+    "动物"
+  ],
+  "dimension": [
+    "minecraft:overworld"
+  ]
+}

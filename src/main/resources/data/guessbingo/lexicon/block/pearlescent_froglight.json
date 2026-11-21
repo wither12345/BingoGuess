@@ -1,0 +1,21 @@
+{
+  "id": "minecraft:pearlescent_froglight",
+  "type": "block",
+  "difficulty": 5,
+  "version": {
+    "version": "1.19",
+    "sequence": 81,
+    "major": 25,
+    "minor": 0
+  },
+  "major_tag": [
+    "自然方块",
+    "功能方块"
+  ],
+  "sub_tag": [
+    "光源"
+  ],
+  "dimension": [
+    "minecraft:overworld"
+  ]
+}

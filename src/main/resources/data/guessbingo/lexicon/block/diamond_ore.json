@@ -1,0 +1,20 @@
+{
+  "id": "minecraft:diamond_ore",
+  "type": "block",
+  "difficulty": 5,
+  "version": {
+    "version": "Indev",
+    "sequence": 2,
+    "major": 2,
+    "minor": 0
+  },
+  "major_tag": [
+    "自然方块"
+  ],
+  "sub_tag": [
+    "矿石"
+  ],
+  "dimension": [
+    "minecraft:overworld"
+  ]
+}

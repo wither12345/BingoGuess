@@ -1,0 +1,22 @@
+{
+  "id": "minecraft:story/deflect_arrow",
+  "type": "advancement",
+  "difficulty": 2,
+  "version": {
+    "version": "1.12",
+    "sequence": 56,
+    "major": 18,
+    "minor": 0
+  },
+  "major_tag": [
+    "Minecraft"
+  ],
+  "sub_tag": [
+    "任务"
+  ],
+  "dimension": [
+    "minecraft:overworld",
+    "minecraft:the_nether",
+    "minecraft:the_end"
+  ]
+}

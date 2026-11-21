@@ -1,0 +1,20 @@
+{
+  "id": "minecraft:ocean_monument_map",
+  "type": "item",
+  "difficulty": 2,
+  "version": {
+    "version": "1.11",
+    "sequence": 53,
+    "major": 17,
+    "minor": 0
+  },
+  "major_tag": [
+    "无"
+  ],
+  "sub_tag": [
+    "地图"
+  ],
+  "dimension": [
+    "minecraft:overworld"
+  ]
+}

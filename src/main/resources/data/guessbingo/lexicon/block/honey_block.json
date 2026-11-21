@@ -1,0 +1,21 @@
+{
+  "id": "minecraft:honey_block",
+  "type": "block",
+  "difficulty": 4,
+  "version": {
+    "version": "1.15",
+    "sequence": 67,
+    "major": 21,
+    "minor": 0
+  },
+  "major_tag": [
+    "自然方块",
+    "红石方块"
+  ],
+  "sub_tag": [
+    "红石元件"
+  ],
+  "dimension": [
+    "minecraft:overworld"
+  ]
+}

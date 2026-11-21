@@ -1,0 +1,22 @@
+{
+  "id": "minecraft:redstone_lamp",
+  "type": "block",
+  "difficulty": 3,
+  "version": {
+    "version": "1.2.1",
+    "sequence": 8,
+    "major": 8,
+    "minor": 1
+  },
+  "major_tag": [
+    "功能方块",
+    "红石方块"
+  ],
+  "sub_tag": [
+    "红石元件",
+    "光源"
+  ],
+  "dimension": [
+    "minecraft:overworld"
+  ]
+}

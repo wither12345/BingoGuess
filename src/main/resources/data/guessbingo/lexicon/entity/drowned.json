@@ -1,0 +1,21 @@
+{
+  "id": "minecraft:drowned",
+  "type": "entity",
+  "difficulty": 1,
+  "version": {
+    "version": "1.13",
+    "sequence": 59,
+    "major": 19,
+    "minor": 0
+  },
+  "major_tag": [
+    "敌对生物"
+  ],
+  "sub_tag": [
+    "亡灵生物",
+    "水生生物"
+  ],
+  "dimension": [
+    "minecraft:overworld"
+  ]
+}

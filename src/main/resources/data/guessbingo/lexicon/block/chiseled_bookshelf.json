@@ -1,0 +1,22 @@
+{
+  "id": "minecraft:chiseled_bookshelf",
+  "type": "block",
+  "difficulty": 1,
+  "version": {
+    "version": "1.19.3",
+    "sequence": 84,
+    "major": 25,
+    "minor": 3
+  },
+  "major_tag": [
+    "功能方块",
+    "红石方块"
+  ],
+  "sub_tag": [
+    "书架",
+    "容器"
+  ],
+  "dimension": [
+    "minecraft:overworld"
+  ]
+}

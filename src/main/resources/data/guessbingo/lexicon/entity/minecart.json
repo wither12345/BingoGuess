@@ -1,0 +1,21 @@
+{
+  "id": "minecraft:minecart",
+  "type": "entity",
+  "difficulty": 3,
+  "version": {
+    "version": "Infdev",
+    "sequence": 3,
+    "major": 3,
+    "minor": 0
+  },
+  "major_tag": [
+    "非生物"
+  ],
+  "sub_tag": [
+    "载具",
+    "矿车"
+  ],
+  "dimension": [
+    "minecraft:overworld"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "minecraft:skeleton_horse",
+  "type": "entity",
+  "difficulty": 4,
+  "version": {
+    "version": "1.6.1",
+    "sequence": 23,
+    "major": 12,
+    "minor": 1
+  },
+  "major_tag": [
+    "友好生物"
+  ],
+  "sub_tag": [
+    "亡灵生物",
+    "动物",
+    "可驯服"
+  ],
+  "dimension": [
+    "minecraft:overworld"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "minecraft:sculk_sensor",
+  "type": "block",
+  "difficulty": 4,
+  "version": {
+    "version": "1.17",
+    "sequence": 76,
+    "major": 23,
+    "minor": 0
+  },
+  "major_tag": [
+    "自然方块",
+    "红石方块"
+  ],
+  "sub_tag": [
+    "幽匿方块",
+    "红石元件"
+  ],
+  "dimension": [
+    "minecraft:overworld"
+  ]
+}

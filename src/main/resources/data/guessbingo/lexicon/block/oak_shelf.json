@@ -1,0 +1,22 @@
+{
+  "id": "minecraft:oak_shelf",
+  "type": "block",
+  "difficulty": 1,
+  "version": {
+    "version": "1.21.9",
+    "sequence": 102,
+    "major": 27,
+    "minor": 9
+  },
+  "major_tag": [
+    "功能方块",
+    "红石方块"
+  ],
+  "sub_tag": [
+    "置物架",
+    "容器"
+  ],
+  "dimension": [
+    "minecraft:overworld"
+  ]
+}

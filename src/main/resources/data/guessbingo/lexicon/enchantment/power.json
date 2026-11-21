@@ -1,0 +1,22 @@
+{
+  "id": "minecraft:power",
+  "type": "enchantment",
+  "difficulty": 3,
+  "version": {
+    "version": "Beta",
+    "sequence": 5,
+    "major": 5,
+    "minor": 0
+  },
+  "major_tag": [
+    "武器"
+  ],
+  "sub_tag": [
+    "弓"
+  ],
+  "dimension": [
+    "minecraft:overworld",
+    "minecraft:the_nether",
+    "minecraft:the_end"
+  ]
+}

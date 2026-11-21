@@ -1,0 +1,20 @@
+{
+  "id": "minecraft:mineshaft",
+  "type": "structure",
+  "difficulty": 2,
+  "version": {
+    "version": "Beta",
+    "sequence": 5,
+    "major": 5,
+    "minor": 0
+  },
+  "major_tag": [
+    "地下"
+  ],
+  "sub_tag": [
+    "矿井"
+  ],
+  "dimension": [
+    "minecraft:overworld"
+  ]
+}

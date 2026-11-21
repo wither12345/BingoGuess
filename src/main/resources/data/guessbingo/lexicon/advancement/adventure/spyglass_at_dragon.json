@@ -1,0 +1,20 @@
+{
+  "id": "minecraft:adventure/spyglass_at_dragon",
+  "type": "advancement",
+  "difficulty": 5,
+  "version": {
+    "version": "1.17",
+    "sequence": 76,
+    "major": 23,
+    "minor": 0
+  },
+  "major_tag": [
+    "冒险"
+  ],
+  "sub_tag": [
+    "任务"
+  ],
+  "dimension": [
+    "minecraft:the_end"
+  ]
+}

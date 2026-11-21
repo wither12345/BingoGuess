@@ -1,0 +1,20 @@
+{
+  "id": "minecraft:glass",
+  "type": "block",
+  "difficulty": 1,
+  "version": {
+    "version": "Classic",
+    "sequence": 1,
+    "major": 1,
+    "minor": 0
+  },
+  "major_tag": [
+    "染色方块"
+  ],
+  "sub_tag": [
+    "玻璃"
+  ],
+  "dimension": [
+    "minecraft:overworld"
+  ]
+}

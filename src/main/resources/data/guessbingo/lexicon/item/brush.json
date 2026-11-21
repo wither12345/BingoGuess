@@ -1,0 +1,20 @@
+{
+  "id": "minecraft:brush",
+  "type": "item",
+  "difficulty": 2,
+  "version": {
+    "version": "1.19.4",
+    "sequence": 85,
+    "major": 25,
+    "minor": 4
+  },
+  "major_tag": [
+    "工具与实用物品"
+  ],
+  "sub_tag": [
+    "刷子"
+  ],
+  "dimension": [
+    "minecraft:overworld"
+  ]
+}

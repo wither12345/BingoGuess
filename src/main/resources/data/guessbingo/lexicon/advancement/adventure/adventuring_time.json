@@ -1,0 +1,20 @@
+{
+  "id": "minecraft:adventure/adventuring_time",
+  "type": "advancement",
+  "difficulty": 5,
+  "version": {
+    "version": "1.12",
+    "sequence": 56,
+    "major": 18,
+    "minor": 0
+  },
+  "major_tag": [
+    "冒险"
+  ],
+  "sub_tag": [
+    "挑战"
+  ],
+  "dimension": [
+    "minecraft:overworld"
+  ]
+}

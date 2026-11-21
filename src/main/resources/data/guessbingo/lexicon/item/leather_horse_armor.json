@@ -1,0 +1,20 @@
+{
+  "id": "minecraft:leather_horse_armor",
+  "type": "item",
+  "difficulty": 2,
+  "version": {
+    "version": "1.14",
+    "sequence": 62,
+    "major": 20,
+    "minor": 0
+  },
+  "major_tag": [
+    "战斗用品"
+  ],
+  "sub_tag": [
+    "马铠"
+  ],
+  "dimension": [
+    "minecraft:overworld"
+  ]
+}

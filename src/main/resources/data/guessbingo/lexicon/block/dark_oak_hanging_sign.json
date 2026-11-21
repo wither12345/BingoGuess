@@ -1,0 +1,20 @@
+{
+  "id": "minecraft:dark_oak_hanging_sign",
+  "type": "block",
+  "difficulty": 2,
+  "version": {
+    "version": "1.19.3",
+    "sequence": 84,
+    "major": 25,
+    "minor": 3
+  },
+  "major_tag": [
+    "功能方块"
+  ],
+  "sub_tag": [
+    "悬挂式告示牌"
+  ],
+  "dimension": [
+    "minecraft:overworld"
+  ]
+}

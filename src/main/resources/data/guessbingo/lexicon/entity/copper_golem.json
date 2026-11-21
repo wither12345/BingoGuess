@@ -1,0 +1,20 @@
+{
+  "id": "minecraft:copper_golem",
+  "type": "entity",
+  "difficulty": 2,
+  "version": {
+    "version": "1.21.9",
+    "sequence": 102,
+    "major": 27,
+    "minor": 9
+  },
+  "major_tag": [
+    "友好生物"
+  ],
+  "sub_tag": [
+    "傀儡"
+  ],
+  "dimension": [
+    "minecraft:overworld"
+  ]
+}

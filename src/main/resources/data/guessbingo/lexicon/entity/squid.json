@@ -1,0 +1,21 @@
+{
+  "id": "minecraft:squid",
+  "type": "entity",
+  "difficulty": 1,
+  "version": {
+    "version": "Beta",
+    "sequence": 5,
+    "major": 5,
+    "minor": 0
+  },
+  "major_tag": [
+    "友好生物"
+  ],
+  "sub_tag": [
+    "水生生物",
+    "动物"
+  ],
+  "dimension": [
+    "minecraft:overworld"
+  ]
+}

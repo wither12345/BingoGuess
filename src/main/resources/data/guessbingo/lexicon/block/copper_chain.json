@@ -1,0 +1,21 @@
+{
+  "id": "minecraft:copper_chain",
+  "type": "block",
+  "difficulty": 1,
+  "version": {
+    "version": "1.21.9",
+    "sequence": 102,
+    "major": 27,
+    "minor": 9
+  },
+  "major_tag": [
+    "建筑方块",
+    "功能方块"
+  ],
+  "sub_tag": [
+    "锁链"
+  ],
+  "dimension": [
+    "minecraft:overworld"
+  ]
+}

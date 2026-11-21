@@ -1,0 +1,20 @@
+{
+  "id": "minecraft:bogged",
+  "type": "entity",
+  "difficulty": 2,
+  "version": {
+    "version": "1.20.5",
+    "sequence": 91,
+    "major": 26,
+    "minor": 5
+  },
+  "major_tag": [
+    "敌对生物"
+  ],
+  "sub_tag": [
+    "亡灵生物"
+  ],
+  "dimension": [
+    "minecraft:overworld"
+  ]
+}

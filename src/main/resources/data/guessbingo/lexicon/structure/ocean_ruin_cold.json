@@ -1,0 +1,21 @@
+{
+  "id": "minecraft:ocean_ruin_cold",
+  "type": "structure",
+  "difficulty": 2,
+  "version": {
+    "version": "1.13",
+    "sequence": 59,
+    "major": 19,
+    "minor": 0
+  },
+  "major_tag": [
+    "水下",
+    "地表"
+  ],
+  "sub_tag": [
+    "遗迹"
+  ],
+  "dimension": [
+    "minecraft:overworld"
+  ]
+}

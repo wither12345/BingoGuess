@@ -1,0 +1,20 @@
+{
+  "id": "minecraft:nether/return_to_sender",
+  "type": "advancement",
+  "difficulty": 4,
+  "version": {
+    "version": "1.12",
+    "sequence": 56,
+    "major": 18,
+    "minor": 0
+  },
+  "major_tag": [
+    "下界"
+  ],
+  "sub_tag": [
+    "挑战"
+  ],
+  "dimension": [
+    "minecraft:the_nether"
+  ]
+}

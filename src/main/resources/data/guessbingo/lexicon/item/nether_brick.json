@@ -1,0 +1,20 @@
+{
+  "id": "minecraft:nether_brick",
+  "type": "item",
+  "difficulty": 2,
+  "version": {
+    "version": "1.5",
+    "sequence": 20,
+    "major": 11,
+    "minor": 0
+  },
+  "major_tag": [
+    "原材料"
+  ],
+  "sub_tag": [
+    "合成材料"
+  ],
+  "dimension": [
+    "minecraft:the_nether"
+  ]
+}

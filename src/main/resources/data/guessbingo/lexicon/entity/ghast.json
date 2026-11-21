@@ -1,0 +1,20 @@
+{
+  "id": "minecraft:ghast",
+  "type": "entity",
+  "difficulty": 3,
+  "version": {
+    "version": "Alpha",
+    "sequence": 4,
+    "major": 4,
+    "minor": 0
+  },
+  "major_tag": [
+    "敌对生物"
+  ],
+  "sub_tag": [
+    "无"
+  ],
+  "dimension": [
+    "minecraft:the_nether"
+  ]
+}

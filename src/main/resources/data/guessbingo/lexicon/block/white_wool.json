@@ -1,0 +1,21 @@
+{
+  "id": "minecraft:white_wool",
+  "type": "block",
+  "difficulty": 1,
+  "version": {
+    "version": "Classic",
+    "sequence": 1,
+    "major": 1,
+    "minor": 0
+  },
+  "major_tag": [
+    "染色方块",
+    "红石方块"
+  ],
+  "sub_tag": [
+    "羊毛"
+  ],
+  "dimension": [
+    "minecraft:overworld"
+  ]
+}

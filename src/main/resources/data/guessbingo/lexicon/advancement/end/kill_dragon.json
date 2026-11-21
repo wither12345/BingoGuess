@@ -1,0 +1,20 @@
+{
+  "id": "minecraft:end/kill_dragon",
+  "type": "advancement",
+  "difficulty": 5,
+  "version": {
+    "version": "1.12",
+    "sequence": 56,
+    "major": 18,
+    "minor": 0
+  },
+  "major_tag": [
+    "末地"
+  ],
+  "sub_tag": [
+    "任务"
+  ],
+  "dimension": [
+    "minecraft:the_end"
+  ]
+}

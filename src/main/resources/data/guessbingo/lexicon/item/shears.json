@@ -1,0 +1,20 @@
+{
+  "id": "minecraft:shears",
+  "type": "item",
+  "difficulty": 2,
+  "version": {
+    "version": "Beta",
+    "sequence": 5,
+    "major": 5,
+    "minor": 0
+  },
+  "major_tag": [
+    "工具与实用物品"
+  ],
+  "sub_tag": [
+    "剪刀"
+  ],
+  "dimension": [
+    "minecraft:overworld"
+  ]
+}

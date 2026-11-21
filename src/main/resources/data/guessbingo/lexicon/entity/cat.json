@@ -1,0 +1,21 @@
+{
+  "id": "minecraft:cat",
+  "type": "entity",
+  "difficulty": 2,
+  "version": {
+    "version": "1.2.1",
+    "sequence": 8,
+    "major": 8,
+    "minor": 1
+  },
+  "major_tag": [
+    "友好生物"
+  ],
+  "sub_tag": [
+    "动物",
+    "可驯服"
+  ],
+  "dimension": [
+    "minecraft:overworld"
+  ]
+}

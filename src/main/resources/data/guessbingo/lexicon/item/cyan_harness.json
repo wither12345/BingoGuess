@@ -1,0 +1,21 @@
+{
+  "id": "minecraft:cyan_harness",
+  "type": "item",
+  "difficulty": 2,
+  "version": {
+    "version": "1.21.6",
+    "sequence": 99,
+    "major": 27,
+    "minor": 6
+  },
+  "major_tag": [
+    "工具与实用物品"
+  ],
+  "sub_tag": [
+    "挽具"
+  ],
+  "dimension": [
+    "minecraft:overworld",
+    "minecraft:the_nether"
+  ]
+}

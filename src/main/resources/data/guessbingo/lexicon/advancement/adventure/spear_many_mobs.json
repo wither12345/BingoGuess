@@ -1,0 +1,20 @@
+{
+  "id": "minecraft:adventure/spear_many_mobs",
+  "type": "advancement",
+  "difficulty": 4,
+  "version": {
+    "version": "1.21.11",
+    "sequence": 104,
+    "major": 27,
+    "minor": 11
+  },
+  "major_tag": [
+    "冒险"
+  ],
+  "sub_tag": [
+    "目标"
+  ],
+  "dimension": [
+    "minecraft:overworld"
+  ]
+}

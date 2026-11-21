@@ -1,0 +1,21 @@
+{
+  "id": "minecraft:lime_cushion",
+  "type": "entity",
+  "difficulty": 4,
+  "version": {
+    "version": "26.3",
+    "sequence": 109,
+    "major": 30,
+    "minor": 0
+  },
+  "major_tag": [
+    "非生物"
+  ],
+  "sub_tag": [
+    "装饰实体",
+    "坐垫"
+  ],
+  "dimension": [
+    "minecraft:overworld"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "id": "minecraft:beehive",
+  "type": "block",
+  "difficulty": 4,
+  "version": {
+    "version": "1.15",
+    "sequence": 67,
+    "major": 21,
+    "minor": 0
+  },
+  "major_tag": [
+    "功能方块"
+  ],
+  "sub_tag": [
+    "蜂巢"
+  ],
+  "dimension": [
+    "minecraft:overworld"
+  ]
+}

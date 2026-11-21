@@ -1,0 +1,21 @@
+{
+  "id": "minecraft:oak_button",
+  "type": "block",
+  "difficulty": 1,
+  "version": {
+    "version": "1.4.2",
+    "sequence": 15,
+    "major": 10,
+    "minor": 2
+  },
+  "major_tag": [
+    "建筑方块",
+    "红石方块"
+  ],
+  "sub_tag": [
+    "按钮"
+  ],
+  "dimension": [
+    "minecraft:overworld"
+  ]
+}

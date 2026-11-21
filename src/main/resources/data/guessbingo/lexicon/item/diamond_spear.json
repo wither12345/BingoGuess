@@ -1,0 +1,22 @@
+{
+  "id": "minecraft:diamond_spear",
+  "type": "item",
+  "difficulty": 4,
+  "version": {
+    "version": "1.21.11",
+    "sequence": 104,
+    "major": 27,
+    "minor": 11
+  },
+  "major_tag": [
+    "战斗用品"
+  ],
+  "sub_tag": [
+    "矛"
+  ],
+  "dimension": [
+    "minecraft:overworld",
+    "minecraft:the_nether",
+    "minecraft:the_end"
+  ]
+}

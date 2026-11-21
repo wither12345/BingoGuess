@@ -1,0 +1,20 @@
+{
+  "id": "minecraft:breeze",
+  "type": "entity",
+  "difficulty": 3,
+  "version": {
+    "version": "1.20.3",
+    "sequence": 89,
+    "major": 26,
+    "minor": 3
+  },
+  "major_tag": [
+    "敌对生物"
+  ],
+  "sub_tag": [
+    "无"
+  ],
+  "dimension": [
+    "minecraft:overworld"
+  ]
+}

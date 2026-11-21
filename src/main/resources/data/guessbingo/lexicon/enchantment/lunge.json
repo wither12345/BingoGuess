@@ -1,0 +1,22 @@
+{
+  "id": "minecraft:lunge",
+  "type": "enchantment",
+  "difficulty": 3,
+  "version": {
+    "version": "1.21.11",
+    "sequence": 104,
+    "major": 27,
+    "minor": 11
+  },
+  "major_tag": [
+    "武器"
+  ],
+  "sub_tag": [
+    "矛"
+  ],
+  "dimension": [
+    "minecraft:overworld",
+    "minecraft:the_nether",
+    "minecraft:the_end"
+  ]
+}

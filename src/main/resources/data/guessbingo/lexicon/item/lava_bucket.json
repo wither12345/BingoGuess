@@ -1,0 +1,22 @@
+{
+  "id": "minecraft:lava_bucket",
+  "type": "item",
+  "difficulty": 2,
+  "version": {
+    "version": "Infdev",
+    "sequence": 3,
+    "major": 3,
+    "minor": 0
+  },
+  "major_tag": [
+    "工具与实用物品"
+  ],
+  "sub_tag": [
+    "桶",
+    "液体"
+  ],
+  "dimension": [
+    "minecraft:overworld",
+    "minecraft:the_nether"
+  ]
+}

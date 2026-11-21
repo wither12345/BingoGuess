@@ -1,0 +1,20 @@
+{
+  "id": "minecraft:cherry_pressure_plate",
+  "type": "block",
+  "difficulty": 4,
+  "version": {
+    "version": "1.19.4",
+    "sequence": 85,
+    "major": 25,
+    "minor": 4
+  },
+  "major_tag": [
+    "建筑方块"
+  ],
+  "sub_tag": [
+    "压力板"
+  ],
+  "dimension": [
+    "minecraft:overworld"
+  ]
+}

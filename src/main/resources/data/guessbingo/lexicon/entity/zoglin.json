@@ -1,0 +1,20 @@
+{
+  "id": "minecraft:zoglin",
+  "type": "entity",
+  "difficulty": 4,
+  "version": {
+    "version": "1.16",
+    "sequence": 70,
+    "major": 22,
+    "minor": 0
+  },
+  "major_tag": [
+    "敌对生物"
+  ],
+  "sub_tag": [
+    "亡灵生物"
+  ],
+  "dimension": [
+    "minecraft:the_nether"
+  ]
+}

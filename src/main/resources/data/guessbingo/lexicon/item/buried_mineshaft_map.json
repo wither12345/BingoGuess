@@ -1,0 +1,20 @@
+{
+  "id": "minecraft:buried_mineshaft_map",
+  "type": "item",
+  "difficulty": 3,
+  "version": {
+    "version": "26.3",
+    "sequence": 109,
+    "major": 30,
+    "minor": 0
+  },
+  "major_tag": [
+    "无"
+  ],
+  "sub_tag": [
+    "地图"
+  ],
+  "dimension": [
+    "minecraft:overworld"
+  ]
+}

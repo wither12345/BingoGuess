@@ -1,0 +1,21 @@
+{
+  "id": "minecraft:netherite_helmet",
+  "type": "item",
+  "difficulty": 5,
+  "version": {
+    "version": "1.16",
+    "sequence": 70,
+    "major": 22,
+    "minor": 0
+  },
+  "major_tag": [
+    "战斗用品"
+  ],
+  "sub_tag": [
+    "盔甲",
+    "头盔"
+  ],
+  "dimension": [
+    "minecraft:the_nether"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "minecraft:glow_berries",
+  "type": "item",
+  "difficulty": 3,
+  "version": {
+    "version": "1.17",
+    "sequence": 76,
+    "major": 23,
+    "minor": 0
+  },
+  "major_tag": [
+    "自然方块",
+    "食物与饮品"
+  ],
+  "sub_tag": [
+    "食物"
+  ],
+  "dimension": [
+    "minecraft:overworld"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "minecraft:heavy_weighted_pressure_plate",
+  "type": "block",
+  "difficulty": 2,
+  "version": {
+    "version": "1.5",
+    "sequence": 20,
+    "major": 11,
+    "minor": 0
+  },
+  "major_tag": [
+    "建筑方块",
+    "红石方块"
+  ],
+  "sub_tag": [
+    "压力板"
+  ],
+  "dimension": [
+    "minecraft:overworld"
+  ]
+}

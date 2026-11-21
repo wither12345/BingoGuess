@@ -1,0 +1,20 @@
+{
+  "id": "minecraft:dark_oak_fence_gate",
+  "type": "block",
+  "difficulty": 2,
+  "version": {
+    "version": "1.8",
+    "sequence": 35,
+    "major": 14,
+    "minor": 0
+  },
+  "major_tag": [
+    "建筑方块"
+  ],
+  "sub_tag": [
+    "栅栏门"
+  ],
+  "dimension": [
+    "minecraft:overworld"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "minecraft:fire_charge",
+  "type": "item",
+  "difficulty": 2,
+  "version": {
+    "version": "1.2.1",
+    "sequence": 8,
+    "major": 8,
+    "minor": 1
+  },
+  "major_tag": [
+    "工具与实用物品",
+    "原材料"
+  ],
+  "sub_tag": [
+    "火焰弹"
+  ],
+  "dimension": [
+    "minecraft:overworld",
+    "minecraft:the_nether"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "id": "minecraft:phantom_membrane",
+  "type": "item",
+  "difficulty": 4,
+  "version": {
+    "version": "1.13",
+    "sequence": 59,
+    "major": 19,
+    "minor": 0
+  },
+  "major_tag": [
+    "原材料"
+  ],
+  "sub_tag": [
+    "合成材料"
+  ],
+  "dimension": [
+    "minecraft:overworld"
+  ]
+}

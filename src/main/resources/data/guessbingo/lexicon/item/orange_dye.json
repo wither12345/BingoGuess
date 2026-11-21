@@ -1,0 +1,20 @@
+{
+  "id": "minecraft:orange_dye",
+  "type": "item",
+  "difficulty": 1,
+  "version": {
+    "version": "Beta",
+    "sequence": 5,
+    "major": 5,
+    "minor": 0
+  },
+  "major_tag": [
+    "原材料"
+  ],
+  "sub_tag": [
+    "染料"
+  ],
+  "dimension": [
+    "minecraft:overworld"
+  ]
+}

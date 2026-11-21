@@ -1,0 +1,20 @@
+{
+  "id": "minecraft:buried_treasure",
+  "type": "structure",
+  "difficulty": 3,
+  "version": {
+    "version": "1.13",
+    "sequence": 59,
+    "major": 19,
+    "minor": 0
+  },
+  "major_tag": [
+    "地下"
+  ],
+  "sub_tag": [
+    "宝藏"
+  ],
+  "dimension": [
+    "minecraft:overworld"
+  ]
+}

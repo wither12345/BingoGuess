@@ -1,0 +1,21 @@
+{
+  "id": "minecraft:trader_llama",
+  "type": "entity",
+  "difficulty": 2,
+  "version": {
+    "version": "1.14",
+    "sequence": 62,
+    "major": 20,
+    "minor": 0
+  },
+  "major_tag": [
+    "中立生物"
+  ],
+  "sub_tag": [
+    "动物",
+    "可驯服"
+  ],
+  "dimension": [
+    "minecraft:overworld"
+  ]
+}

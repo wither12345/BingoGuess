@@ -1,0 +1,20 @@
+{
+  "id": "minecraft:husk",
+  "type": "entity",
+  "difficulty": 2,
+  "version": {
+    "version": "1.10",
+    "sequence": 50,
+    "major": 16,
+    "minor": 0
+  },
+  "major_tag": [
+    "敌对生物"
+  ],
+  "sub_tag": [
+    "亡灵生物"
+  ],
+  "dimension": [
+    "minecraft:overworld"
+  ]
+}

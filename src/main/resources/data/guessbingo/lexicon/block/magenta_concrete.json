@@ -1,0 +1,20 @@
+{
+  "id": "minecraft:magenta_concrete",
+  "type": "block",
+  "difficulty": 2,
+  "version": {
+    "version": "1.12",
+    "sequence": 56,
+    "major": 18,
+    "minor": 0
+  },
+  "major_tag": [
+    "染色方块"
+  ],
+  "sub_tag": [
+    "混凝土"
+  ],
+  "dimension": [
+    "minecraft:overworld"
+  ]
+}

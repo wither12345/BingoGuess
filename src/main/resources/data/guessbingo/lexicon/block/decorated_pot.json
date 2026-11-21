@@ -1,0 +1,22 @@
+{
+  "id": "minecraft:decorated_pot",
+  "type": "block",
+  "difficulty": 2,
+  "version": {
+    "version": "1.19.4",
+    "sequence": 85,
+    "major": 25,
+    "minor": 4
+  },
+  "major_tag": [
+    "功能方块",
+    "红石方块"
+  ],
+  "sub_tag": [
+    "饰纹陶罐",
+    "容器"
+  ],
+  "dimension": [
+    "minecraft:overworld"
+  ]
+}

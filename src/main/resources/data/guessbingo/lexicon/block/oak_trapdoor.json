@@ -1,0 +1,21 @@
+{
+  "id": "minecraft:oak_trapdoor",
+  "type": "block",
+  "difficulty": 1,
+  "version": {
+    "version": "Beta",
+    "sequence": 5,
+    "major": 5,
+    "minor": 0
+  },
+  "major_tag": [
+    "建筑方块",
+    "红石方块"
+  ],
+  "sub_tag": [
+    "活板门"
+  ],
+  "dimension": [
+    "minecraft:overworld"
+  ]
+}

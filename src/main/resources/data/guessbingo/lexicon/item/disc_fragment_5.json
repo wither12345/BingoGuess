@@ -1,0 +1,20 @@
+{
+  "id": "minecraft:disc_fragment_5",
+  "type": "item",
+  "difficulty": 4,
+  "version": {
+    "version": "1.19",
+    "sequence": 81,
+    "major": 25,
+    "minor": 0
+  },
+  "major_tag": [
+    "原材料"
+  ],
+  "sub_tag": [
+    "唱片残片"
+  ],
+  "dimension": [
+    "minecraft:overworld"
+  ]
+}

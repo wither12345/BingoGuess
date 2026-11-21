@@ -1,0 +1,21 @@
+{
+  "id": "minecraft:iron_nugget",
+  "type": "item",
+  "difficulty": 1,
+  "version": {
+    "version": "1.11.1",
+    "sequence": 54,
+    "major": 17,
+    "minor": 1
+  },
+  "major_tag": [
+    "原材料"
+  ],
+  "sub_tag": [
+    "金属粒"
+  ],
+  "dimension": [
+    "minecraft:overworld",
+    "minecraft:the_nether"
+  ]
+}

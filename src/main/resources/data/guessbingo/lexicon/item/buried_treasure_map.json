@@ -1,0 +1,20 @@
+{
+  "id": "minecraft:buried_treasure_map",
+  "type": "item",
+  "difficulty": 2,
+  "version": {
+    "version": "1.13",
+    "sequence": 59,
+    "major": 19,
+    "minor": 0
+  },
+  "major_tag": [
+    "无"
+  ],
+  "sub_tag": [
+    "地图"
+  ],
+  "dimension": [
+    "minecraft:overworld"
+  ]
+}

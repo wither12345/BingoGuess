@@ -1,0 +1,20 @@
+{
+  "id": "minecraft:wildflowers",
+  "type": "block",
+  "difficulty": 3,
+  "version": {
+    "version": "1.21.5",
+    "sequence": 98,
+    "major": 27,
+    "minor": 5
+  },
+  "major_tag": [
+    "自然方块"
+  ],
+  "sub_tag": [
+    "花"
+  ],
+  "dimension": [
+    "minecraft:overworld"
+  ]
+}

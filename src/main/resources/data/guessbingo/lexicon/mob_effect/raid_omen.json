@@ -1,0 +1,20 @@
+{
+  "id": "minecraft:raid_omen",
+  "type": "mob_effect",
+  "difficulty": 4,
+  "version": {
+    "version": "1.21",
+    "sequence": 93,
+    "major": 27,
+    "minor": 0
+  },
+  "major_tag": [
+    "中性效果"
+  ],
+  "sub_tag": [
+    "袭击"
+  ],
+  "dimension": [
+    "minecraft:overworld"
+  ]
+}

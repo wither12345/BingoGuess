@@ -1,0 +1,21 @@
+{
+  "id": "minecraft:parrot",
+  "type": "entity",
+  "difficulty": 3,
+  "version": {
+    "version": "1.12",
+    "sequence": 56,
+    "major": 18,
+    "minor": 0
+  },
+  "major_tag": [
+    "友好生物"
+  ],
+  "sub_tag": [
+    "动物",
+    "可驯服"
+  ],
+  "dimension": [
+    "minecraft:overworld"
+  ]
+}

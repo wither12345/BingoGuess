@@ -1,0 +1,21 @@
+{
+  "id": "minecraft:tnt",
+  "type": "block",
+  "difficulty": 3,
+  "version": {
+    "version": "Classic",
+    "sequence": 1,
+    "major": 1,
+    "minor": 0
+  },
+  "major_tag": [
+    "红石方块",
+    "战斗用品"
+  ],
+  "sub_tag": [
+    "炸药"
+  ],
+  "dimension": [
+    "minecraft:overworld"
+  ]
+}

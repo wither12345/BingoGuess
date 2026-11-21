@@ -1,0 +1,21 @@
+{
+  "id": "minecraft:husbandry/place_dried_ghast_in_water",
+  "type": "advancement",
+  "difficulty": 4,
+  "version": {
+    "version": "1.21.6",
+    "sequence": 99,
+    "major": 27,
+    "minor": 6
+  },
+  "major_tag": [
+    "农牧业"
+  ],
+  "sub_tag": [
+    "任务"
+  ],
+  "dimension": [
+    "minecraft:overworld",
+    "minecraft:the_nether"
+  ]
+}

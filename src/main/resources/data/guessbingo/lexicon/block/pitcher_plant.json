@@ -1,0 +1,20 @@
+{
+  "id": "minecraft:pitcher_plant",
+  "type": "block",
+  "difficulty": 4,
+  "version": {
+    "version": "1.20",
+    "sequence": 86,
+    "major": 26,
+    "minor": 0
+  },
+  "major_tag": [
+    "自然方块"
+  ],
+  "sub_tag": [
+    "花"
+  ],
+  "dimension": [
+    "minecraft:overworld"
+  ]
+}

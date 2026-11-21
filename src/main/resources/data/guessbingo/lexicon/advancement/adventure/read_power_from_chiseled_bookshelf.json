@@ -1,0 +1,22 @@
+{
+  "id": "minecraft:adventure/read_power_from_chiseled_bookshelf",
+  "type": "advancement",
+  "difficulty": 3,
+  "version": {
+    "version": "1.20",
+    "sequence": 86,
+    "major": 26,
+    "minor": 0
+  },
+  "major_tag": [
+    "冒险"
+  ],
+  "sub_tag": [
+    "任务"
+  ],
+  "dimension": [
+    "minecraft:overworld",
+    "minecraft:the_nether",
+    "minecraft:the_end"
+  ]
+}

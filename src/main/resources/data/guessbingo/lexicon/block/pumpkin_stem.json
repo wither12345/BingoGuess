@@ -1,0 +1,20 @@
+{
+  "id": "minecraft:pumpkin_stem",
+  "type": "block",
+  "difficulty": 1,
+  "version": {
+    "version": "Beta",
+    "sequence": 5,
+    "major": 5,
+    "minor": 0
+  },
+  "major_tag": [
+    "自然方块"
+  ],
+  "sub_tag": [
+    "作物"
+  ],
+  "dimension": [
+    "minecraft:overworld"
+  ]
+}

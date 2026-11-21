@@ -1,0 +1,22 @@
+{
+  "id": "minecraft:sweeping_edge",
+  "type": "enchantment",
+  "difficulty": 3,
+  "version": {
+    "version": "1.11.1",
+    "sequence": 54,
+    "major": 17,
+    "minor": 1
+  },
+  "major_tag": [
+    "武器"
+  ],
+  "sub_tag": [
+    "剑"
+  ],
+  "dimension": [
+    "minecraft:overworld",
+    "minecraft:the_nether",
+    "minecraft:the_end"
+  ]
+}

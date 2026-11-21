@@ -1,0 +1,21 @@
+{
+  "id": "minecraft:wither",
+  "type": "mob_effect",
+  "difficulty": 4,
+  "version": {
+    "version": "1.4.2",
+    "sequence": 15,
+    "major": 10,
+    "minor": 2
+  },
+  "major_tag": [
+    "负面效果"
+  ],
+  "sub_tag": [
+    "生命",
+    "伤害"
+  ],
+  "dimension": [
+    "minecraft:the_nether"
+  ]
+}

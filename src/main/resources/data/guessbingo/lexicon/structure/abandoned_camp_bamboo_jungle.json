@@ -1,0 +1,20 @@
+{
+  "id": "minecraft:abandoned_camp_bamboo_jungle",
+  "type": "structure",
+  "difficulty": 2,
+  "version": {
+    "version": "26.3",
+    "sequence": 109,
+    "major": 30,
+    "minor": 0
+  },
+  "major_tag": [
+    "地表"
+  ],
+  "sub_tag": [
+    "营地"
+  ],
+  "dimension": [
+    "minecraft:overworld"
+  ]
+}

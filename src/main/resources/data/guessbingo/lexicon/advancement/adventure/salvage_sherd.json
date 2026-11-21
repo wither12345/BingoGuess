@@ -1,0 +1,20 @@
+{
+  "id": "minecraft:adventure/salvage_sherd",
+  "type": "advancement",
+  "difficulty": 3,
+  "version": {
+    "version": "1.20",
+    "sequence": 86,
+    "major": 26,
+    "minor": 0
+  },
+  "major_tag": [
+    "冒险"
+  ],
+  "sub_tag": [
+    "任务"
+  ],
+  "dimension": [
+    "minecraft:overworld"
+  ]
+}

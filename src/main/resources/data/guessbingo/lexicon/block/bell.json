@@ -1,0 +1,22 @@
+{
+  "id": "minecraft:bell",
+  "type": "block",
+  "difficulty": 3,
+  "version": {
+    "version": "1.14",
+    "sequence": 62,
+    "major": 20,
+    "minor": 0
+  },
+  "major_tag": [
+    "功能方块",
+    "红石方块"
+  ],
+  "sub_tag": [
+    "功能方块"
+  ],
+  "dimension": [
+    "minecraft:overworld",
+    "minecraft:the_nether"
+  ]
+}

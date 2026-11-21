@@ -1,0 +1,20 @@
+{
+  "id": "minecraft:creeper",
+  "type": "entity",
+  "difficulty": 1,
+  "version": {
+    "version": "Classic",
+    "sequence": 1,
+    "major": 1,
+    "minor": 0
+  },
+  "major_tag": [
+    "敌对生物"
+  ],
+  "sub_tag": [
+    "无"
+  ],
+  "dimension": [
+    "minecraft:overworld"
+  ]
+}

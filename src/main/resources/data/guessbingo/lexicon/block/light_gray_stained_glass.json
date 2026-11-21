@@ -1,0 +1,20 @@
+{
+  "id": "minecraft:light_gray_stained_glass",
+  "type": "block",
+  "difficulty": 2,
+  "version": {
+    "version": "1.7.2",
+    "sequence": 26,
+    "major": 13,
+    "minor": 2
+  },
+  "major_tag": [
+    "染色方块"
+  ],
+  "sub_tag": [
+    "玻璃"
+  ],
+  "dimension": [
+    "minecraft:overworld"
+  ]
+}

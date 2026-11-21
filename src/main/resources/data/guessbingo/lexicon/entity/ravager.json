@@ -1,0 +1,20 @@
+{
+  "id": "minecraft:ravager",
+  "type": "entity",
+  "difficulty": 4,
+  "version": {
+    "version": "1.14",
+    "sequence": 62,
+    "major": 20,
+    "minor": 0
+  },
+  "major_tag": [
+    "敌对生物"
+  ],
+  "sub_tag": [
+    "无"
+  ],
+  "dimension": [
+    "minecraft:overworld"
+  ]
+}

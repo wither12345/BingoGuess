@@ -1,0 +1,20 @@
+{
+  "id": "minecraft:rabbit_hide",
+  "type": "item",
+  "difficulty": 3,
+  "version": {
+    "version": "1.8",
+    "sequence": 35,
+    "major": 14,
+    "minor": 0
+  },
+  "major_tag": [
+    "原材料"
+  ],
+  "sub_tag": [
+    "合成材料"
+  ],
+  "dimension": [
+    "minecraft:overworld"
+  ]
+}

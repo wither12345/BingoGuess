@@ -1,0 +1,20 @@
+{
+  "id": "minecraft:shulker_shell",
+  "type": "item",
+  "difficulty": 5,
+  "version": {
+    "version": "1.11",
+    "sequence": 53,
+    "major": 17,
+    "minor": 0
+  },
+  "major_tag": [
+    "原材料"
+  ],
+  "sub_tag": [
+    "合成材料"
+  ],
+  "dimension": [
+    "minecraft:the_end"
+  ]
+}

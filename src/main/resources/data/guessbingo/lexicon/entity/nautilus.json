@@ -1,0 +1,22 @@
+{
+  "id": "minecraft:nautilus",
+  "type": "entity",
+  "difficulty": 2,
+  "version": {
+    "version": "1.21.11",
+    "sequence": 104,
+    "major": 27,
+    "minor": 11
+  },
+  "major_tag": [
+    "中立生物"
+  ],
+  "sub_tag": [
+    "水生生物",
+    "动物",
+    "可驯服"
+  ],
+  "dimension": [
+    "minecraft:overworld"
+  ]
+}

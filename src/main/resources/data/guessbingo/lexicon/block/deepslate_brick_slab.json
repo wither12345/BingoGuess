@@ -1,0 +1,21 @@
+{
+  "id": "minecraft:deepslate_brick_slab",
+  "type": "block",
+  "difficulty": 1,
+  "version": {
+    "version": "1.17",
+    "sequence": 76,
+    "major": 23,
+    "minor": 0
+  },
+  "major_tag": [
+    "建筑方块"
+  ],
+  "sub_tag": [
+    "石砖",
+    "台阶"
+  ],
+  "dimension": [
+    "minecraft:overworld"
+  ]
+}

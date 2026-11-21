@@ -1,0 +1,20 @@
+{
+  "id": "minecraft:pink_wool_stairs",
+  "type": "block",
+  "difficulty": 1,
+  "version": {
+    "version": "26.3",
+    "sequence": 109,
+    "major": 30,
+    "minor": 0
+  },
+  "major_tag": [
+    "染色方块"
+  ],
+  "sub_tag": [
+    "楼梯"
+  ],
+  "dimension": [
+    "minecraft:overworld"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "minecraft:ward_armor_trim_smithing_template.new",
+  "type": "item",
+  "difficulty": 3,
+  "version": {
+    "version": "1.20",
+    "sequence": 86,
+    "major": 26,
+    "minor": 0
+  },
+  "major_tag": [
+    "原材料"
+  ],
+  "sub_tag": [
+    "锻造模板",
+    "盔甲纹饰"
+  ],
+  "dimension": [
+    "minecraft:overworld"
+  ]
+}

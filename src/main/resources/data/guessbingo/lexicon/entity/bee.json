@@ -1,0 +1,21 @@
+{
+  "id": "minecraft:bee",
+  "type": "entity",
+  "difficulty": 2,
+  "version": {
+    "version": "1.15",
+    "sequence": 67,
+    "major": 21,
+    "minor": 0
+  },
+  "major_tag": [
+    "中立生物"
+  ],
+  "sub_tag": [
+    "节肢生物",
+    "动物"
+  ],
+  "dimension": [
+    "minecraft:overworld"
+  ]
+}

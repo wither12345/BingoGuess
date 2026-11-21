@@ -1,0 +1,20 @@
+{
+  "id": "minecraft:prismarine_brick_slab",
+  "type": "block",
+  "difficulty": 4,
+  "version": {
+    "version": "1.13",
+    "sequence": 59,
+    "major": 19,
+    "minor": 0
+  },
+  "major_tag": [
+    "建筑方块"
+  ],
+  "sub_tag": [
+    "台阶"
+  ],
+  "dimension": [
+    "minecraft:overworld"
+  ]
+}

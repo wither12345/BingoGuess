@@ -1,0 +1,20 @@
+{
+  "id": "minecraft:resin_clump",
+  "type": "block",
+  "difficulty": 4,
+  "version": {
+    "version": "1.21.4",
+    "sequence": 97,
+    "major": 27,
+    "minor": 4
+  },
+  "major_tag": [
+    "原材料"
+  ],
+  "sub_tag": [
+    "树脂"
+  ],
+  "dimension": [
+    "minecraft:overworld"
+  ]
+}

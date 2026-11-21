@@ -1,0 +1,20 @@
+{
+  "id": "minecraft:nether_brick_slab",
+  "type": "block",
+  "difficulty": 2,
+  "version": {
+    "version": "1.4.6",
+    "sequence": 18,
+    "major": 10,
+    "minor": 6
+  },
+  "major_tag": [
+    "建筑方块"
+  ],
+  "sub_tag": [
+    "台阶"
+  ],
+  "dimension": [
+    "minecraft:the_nether"
+  ]
+}

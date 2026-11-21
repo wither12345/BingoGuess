@@ -1,0 +1,20 @@
+{
+  "id": "minecraft:apple",
+  "type": "item",
+  "difficulty": 1,
+  "version": {
+    "version": "Indev",
+    "sequence": 2,
+    "major": 2,
+    "minor": 0
+  },
+  "major_tag": [
+    "食物与饮品"
+  ],
+  "sub_tag": [
+    "食物"
+  ],
+  "dimension": [
+    "minecraft:overworld"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "id": "minecraft:lever",
+  "type": "block",
+  "difficulty": 1,
+  "version": {
+    "version": "Alpha",
+    "sequence": 4,
+    "major": 4,
+    "minor": 0
+  },
+  "major_tag": [
+    "红石方块"
+  ],
+  "sub_tag": [
+    "红石元件"
+  ],
+  "dimension": [
+    "minecraft:overworld"
+  ]
+}

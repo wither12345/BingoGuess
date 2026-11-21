@@ -1,0 +1,20 @@
+{
+  "id": "minecraft:glow_ink_sac",
+  "type": "item",
+  "difficulty": 2,
+  "version": {
+    "version": "1.17",
+    "sequence": 76,
+    "major": 23,
+    "minor": 0
+  },
+  "major_tag": [
+    "原材料"
+  ],
+  "sub_tag": [
+    "染料原料"
+  ],
+  "dimension": [
+    "minecraft:overworld"
+  ]
+}

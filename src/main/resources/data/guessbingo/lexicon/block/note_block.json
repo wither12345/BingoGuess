@@ -1,0 +1,22 @@
+{
+  "id": "minecraft:note_block",
+  "type": "block",
+  "difficulty": 3,
+  "version": {
+    "version": "Beta",
+    "sequence": 5,
+    "major": 5,
+    "minor": 0
+  },
+  "major_tag": [
+    "功能方块",
+    "红石方块"
+  ],
+  "sub_tag": [
+    "红石元件",
+    "乐器"
+  ],
+  "dimension": [
+    "minecraft:overworld"
+  ]
+}

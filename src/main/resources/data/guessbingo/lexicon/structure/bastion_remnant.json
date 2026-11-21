@@ -1,0 +1,22 @@
+{
+  "id": "minecraft:bastion_remnant",
+  "type": "structure",
+  "difficulty": 3,
+  "version": {
+    "version": "1.16",
+    "sequence": 70,
+    "major": 22,
+    "minor": 0
+  },
+  "major_tag": [
+    "地表",
+    "地下"
+  ],
+  "sub_tag": [
+    "遗迹",
+    "军事据点"
+  ],
+  "dimension": [
+    "minecraft:the_nether"
+  ]
+}

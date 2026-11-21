@@ -1,0 +1,21 @@
+{
+  "id": "minecraft:soul_sand",
+  "type": "block",
+  "difficulty": 2,
+  "version": {
+    "version": "Alpha",
+    "sequence": 4,
+    "major": 4,
+    "minor": 0
+  },
+  "major_tag": [
+    "自然方块"
+  ],
+  "sub_tag": [
+    "沙"
+  ],
+  "dimension": [
+    "minecraft:overworld",
+    "minecraft:the_nether"
+  ]
+}

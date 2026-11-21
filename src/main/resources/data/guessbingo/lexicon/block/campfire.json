@@ -1,0 +1,21 @@
+{
+  "id": "minecraft:campfire",
+  "type": "block",
+  "difficulty": 2,
+  "version": {
+    "version": "1.14",
+    "sequence": 62,
+    "major": 20,
+    "minor": 0
+  },
+  "major_tag": [
+    "功能方块"
+  ],
+  "sub_tag": [
+    "营火",
+    "光源"
+  ],
+  "dimension": [
+    "minecraft:overworld"
+  ]
+}

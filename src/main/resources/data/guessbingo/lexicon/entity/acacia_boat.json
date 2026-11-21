@@ -1,0 +1,21 @@
+{
+  "id": "minecraft:acacia_boat",
+  "type": "entity",
+  "difficulty": 1,
+  "version": {
+    "version": "1.9",
+    "sequence": 45,
+    "major": 15,
+    "minor": 0
+  },
+  "major_tag": [
+    "非生物"
+  ],
+  "sub_tag": [
+    "载具",
+    "船"
+  ],
+  "dimension": [
+    "minecraft:overworld"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "minecraft:wind_charge",
+  "type": "item",
+  "difficulty": 5,
+  "version": {
+    "version": "1.21",
+    "sequence": 93,
+    "major": 27,
+    "minor": 0
+  },
+  "major_tag": [
+    "工具与实用物品",
+    "战斗用品"
+  ],
+  "sub_tag": [
+    "投掷物"
+  ],
+  "dimension": [
+    "minecraft:overworld"
+  ]
+}

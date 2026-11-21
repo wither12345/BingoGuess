@@ -1,0 +1,20 @@
+{
+  "id": "minecraft:mooshroom",
+  "type": "entity",
+  "difficulty": 4,
+  "version": {
+    "version": "Beta",
+    "sequence": 5,
+    "major": 5,
+    "minor": 0
+  },
+  "major_tag": [
+    "友好生物"
+  ],
+  "sub_tag": [
+    "动物"
+  ],
+  "dimension": [
+    "minecraft:overworld"
+  ]
+}

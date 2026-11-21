@@ -1,0 +1,20 @@
+{
+  "id": "minecraft:mace",
+  "type": "item",
+  "difficulty": 5,
+  "version": {
+    "version": "1.20.5",
+    "sequence": 91,
+    "major": 26,
+    "minor": 5
+  },
+  "major_tag": [
+    "战斗用品"
+  ],
+  "sub_tag": [
+    "锤"
+  ],
+  "dimension": [
+    "minecraft:overworld"
+  ]
+}

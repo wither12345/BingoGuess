@@ -1,0 +1,20 @@
+{
+  "id": "minecraft:husbandry/netherite_hoe",
+  "type": "advancement",
+  "difficulty": 5,
+  "version": {
+    "version": "1.16",
+    "sequence": 70,
+    "major": 22,
+    "minor": 0
+  },
+  "major_tag": [
+    "农牧业"
+  ],
+  "sub_tag": [
+    "挑战"
+  ],
+  "dimension": [
+    "minecraft:the_nether"
+  ]
+}

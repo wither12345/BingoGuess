@@ -1,0 +1,20 @@
+{
+  "id": "minecraft:dried_kelp",
+  "type": "item",
+  "difficulty": 3,
+  "version": {
+    "version": "1.13",
+    "sequence": 59,
+    "major": 19,
+    "minor": 0
+  },
+  "major_tag": [
+    "食物与饮品"
+  ],
+  "sub_tag": [
+    "食物"
+  ],
+  "dimension": [
+    "minecraft:overworld"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "id": "minecraft:mining_fatigue",
+  "type": "mob_effect",
+  "difficulty": 3,
+  "version": {
+    "version": "Beta",
+    "sequence": 5,
+    "major": 5,
+    "minor": 0
+  },
+  "major_tag": [
+    "负面效果"
+  ],
+  "sub_tag": [
+    "挖掘"
+  ],
+  "dimension": [
+    "minecraft:overworld"
+  ]
+}

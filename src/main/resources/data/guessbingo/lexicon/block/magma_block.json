@@ -1,0 +1,22 @@
+{
+  "id": "minecraft:magma_block",
+  "type": "block",
+  "difficulty": 2,
+  "version": {
+    "version": "1.10",
+    "sequence": 50,
+    "major": 16,
+    "minor": 0
+  },
+  "major_tag": [
+    "自然方块",
+    "功能方块"
+  ],
+  "sub_tag": [
+    "岩石"
+  ],
+  "dimension": [
+    "minecraft:overworld",
+    "minecraft:the_nether"
+  ]
+}

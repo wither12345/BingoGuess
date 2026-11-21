@@ -1,0 +1,21 @@
+{
+  "id": "minecraft:pale_moss_carpet",
+  "type": "block",
+  "difficulty": 4,
+  "version": {
+    "version": "1.21.2",
+    "sequence": 95,
+    "major": 27,
+    "minor": 2
+  },
+  "major_tag": [
+    "自然方块"
+  ],
+  "sub_tag": [
+    "苔藓",
+    "地毯"
+  ],
+  "dimension": [
+    "minecraft:overworld"
+  ]
+}

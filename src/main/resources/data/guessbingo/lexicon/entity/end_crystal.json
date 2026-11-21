@@ -1,0 +1,20 @@
+{
+  "id": "minecraft:end_crystal",
+  "type": "entity",
+  "difficulty": 4,
+  "version": {
+    "version": "Beta",
+    "sequence": 5,
+    "major": 5,
+    "minor": 0
+  },
+  "major_tag": [
+    "非生物"
+  ],
+  "sub_tag": [
+    "末地水晶"
+  ],
+  "dimension": [
+    "minecraft:the_end"
+  ]
+}

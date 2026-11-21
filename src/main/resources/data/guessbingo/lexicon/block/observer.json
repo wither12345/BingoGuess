@@ -1,0 +1,20 @@
+{
+  "id": "minecraft:observer",
+  "type": "block",
+  "difficulty": 4,
+  "version": {
+    "version": "1.11",
+    "sequence": 53,
+    "major": 17,
+    "minor": 0
+  },
+  "major_tag": [
+    "红石方块"
+  ],
+  "sub_tag": [
+    "红石元件"
+  ],
+  "dimension": [
+    "minecraft:overworld"
+  ]
+}

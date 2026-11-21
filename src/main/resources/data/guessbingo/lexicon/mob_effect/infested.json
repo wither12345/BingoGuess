@@ -1,0 +1,20 @@
+{
+  "id": "minecraft:infested",
+  "type": "mob_effect",
+  "difficulty": 4,
+  "version": {
+    "version": "1.21",
+    "sequence": 93,
+    "major": 27,
+    "minor": 0
+  },
+  "major_tag": [
+    "负面效果"
+  ],
+  "sub_tag": [
+    "受击触发"
+  ],
+  "dimension": [
+    "minecraft:overworld"
+  ]
+}

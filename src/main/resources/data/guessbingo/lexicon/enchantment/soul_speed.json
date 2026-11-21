@@ -1,0 +1,20 @@
+{
+  "id": "minecraft:soul_speed",
+  "type": "enchantment",
+  "difficulty": 4,
+  "version": {
+    "version": "1.16",
+    "sequence": 70,
+    "major": 22,
+    "minor": 0
+  },
+  "major_tag": [
+    "装备"
+  ],
+  "sub_tag": [
+    "靴子"
+  ],
+  "dimension": [
+    "minecraft:the_nether"
+  ]
+}

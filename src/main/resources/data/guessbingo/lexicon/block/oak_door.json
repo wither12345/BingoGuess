@@ -1,0 +1,21 @@
+{
+  "id": "minecraft:oak_door",
+  "type": "block",
+  "difficulty": 1,
+  "version": {
+    "version": "Infdev",
+    "sequence": 3,
+    "major": 3,
+    "minor": 0
+  },
+  "major_tag": [
+    "建筑方块",
+    "红石方块"
+  ],
+  "sub_tag": [
+    "门"
+  ],
+  "dimension": [
+    "minecraft:overworld"
+  ]
+}

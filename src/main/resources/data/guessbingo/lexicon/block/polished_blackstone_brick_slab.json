@@ -1,0 +1,20 @@
+{
+  "id": "minecraft:polished_blackstone_brick_slab",
+  "type": "block",
+  "difficulty": 2,
+  "version": {
+    "version": "1.16",
+    "sequence": 70,
+    "major": 22,
+    "minor": 0
+  },
+  "major_tag": [
+    "建筑方块"
+  ],
+  "sub_tag": [
+    "台阶"
+  ],
+  "dimension": [
+    "minecraft:the_nether"
+  ]
+}

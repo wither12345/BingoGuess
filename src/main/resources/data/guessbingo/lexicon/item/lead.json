@@ -1,0 +1,20 @@
+{
+  "id": "minecraft:lead",
+  "type": "item",
+  "difficulty": 2,
+  "version": {
+    "version": "1.6.1",
+    "sequence": 23,
+    "major": 12,
+    "minor": 1
+  },
+  "major_tag": [
+    "工具与实用物品"
+  ],
+  "sub_tag": [
+    "拴绳"
+  ],
+  "dimension": [
+    "minecraft:overworld"
+  ]
+}

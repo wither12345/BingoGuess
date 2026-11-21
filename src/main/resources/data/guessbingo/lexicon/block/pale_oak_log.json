@@ -1,0 +1,21 @@
+{
+  "id": "minecraft:pale_oak_log",
+  "type": "block",
+  "difficulty": 4,
+  "version": {
+    "version": "1.21.2",
+    "sequence": 95,
+    "major": 27,
+    "minor": 2
+  },
+  "major_tag": [
+    "建筑方块",
+    "自然方块"
+  ],
+  "sub_tag": [
+    "原木"
+  ],
+  "dimension": [
+    "minecraft:overworld"
+  ]
+}

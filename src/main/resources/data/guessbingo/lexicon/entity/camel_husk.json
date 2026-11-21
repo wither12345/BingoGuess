@@ -1,0 +1,21 @@
+{
+  "id": "minecraft:camel_husk",
+  "type": "entity",
+  "difficulty": 3,
+  "version": {
+    "version": "1.21.11",
+    "sequence": 104,
+    "major": 27,
+    "minor": 11
+  },
+  "major_tag": [
+    "友好生物"
+  ],
+  "sub_tag": [
+    "亡灵生物",
+    "动物"
+  ],
+  "dimension": [
+    "minecraft:overworld"
+  ]
+}

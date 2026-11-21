@@ -1,0 +1,22 @@
+{
+  "id": "minecraft:light_blue_shulker_box",
+  "type": "block",
+  "difficulty": 5,
+  "version": {
+    "version": "1.11",
+    "sequence": 53,
+    "major": 17,
+    "minor": 0
+  },
+  "major_tag": [
+    "染色方块",
+    "功能方块"
+  ],
+  "sub_tag": [
+    "潜影盒",
+    "容器"
+  ],
+  "dimension": [
+    "minecraft:the_end"
+  ]
+}

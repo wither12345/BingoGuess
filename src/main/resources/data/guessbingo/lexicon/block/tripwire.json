@@ -1,0 +1,21 @@
+{
+  "id": "minecraft:tripwire",
+  "type": "block",
+  "difficulty": 2,
+  "version": {
+    "version": "1.3.1",
+    "sequence": 13,
+    "major": 9,
+    "minor": 1
+  },
+  "major_tag": [
+    "红石方块",
+    "原材料"
+  ],
+  "sub_tag": [
+    "红石元件"
+  ],
+  "dimension": [
+    "minecraft:overworld"
+  ]
+}

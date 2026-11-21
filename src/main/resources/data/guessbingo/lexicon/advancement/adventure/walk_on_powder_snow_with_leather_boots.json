@@ -1,0 +1,20 @@
+{
+  "id": "minecraft:adventure/walk_on_powder_snow_with_leather_boots",
+  "type": "advancement",
+  "difficulty": 3,
+  "version": {
+    "version": "1.17",
+    "sequence": 76,
+    "major": 23,
+    "minor": 0
+  },
+  "major_tag": [
+    "冒险"
+  ],
+  "sub_tag": [
+    "任务"
+  ],
+  "dimension": [
+    "minecraft:overworld"
+  ]
+}

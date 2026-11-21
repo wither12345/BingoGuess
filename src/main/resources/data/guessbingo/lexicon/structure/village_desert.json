@@ -1,0 +1,20 @@
+{
+  "id": "minecraft:village_desert",
+  "type": "structure",
+  "difficulty": 1,
+  "version": {
+    "version": "Beta",
+    "sequence": 5,
+    "major": 5,
+    "minor": 0
+  },
+  "major_tag": [
+    "地表"
+  ],
+  "sub_tag": [
+    "聚落"
+  ],
+  "dimension": [
+    "minecraft:overworld"
+  ]
+}

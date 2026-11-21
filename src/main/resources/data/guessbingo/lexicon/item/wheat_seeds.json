@@ -1,0 +1,20 @@
+{
+  "id": "minecraft:wheat_seeds",
+  "type": "item",
+  "difficulty": 1,
+  "version": {
+    "version": "Indev",
+    "sequence": 2,
+    "major": 2,
+    "minor": 0
+  },
+  "major_tag": [
+    "自然方块"
+  ],
+  "sub_tag": [
+    "种子"
+  ],
+  "dimension": [
+    "minecraft:overworld"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "id": "minecraft:lime_concrete_powder",
+  "type": "block",
+  "difficulty": 4,
+  "version": {
+    "version": "1.12",
+    "sequence": 56,
+    "major": 18,
+    "minor": 0
+  },
+  "major_tag": [
+    "染色方块"
+  ],
+  "sub_tag": [
+    "混凝土粉末"
+  ],
+  "dimension": [
+    "minecraft:overworld"
+  ]
+}

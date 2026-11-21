@@ -1,0 +1,21 @@
+{
+  "id": "minecraft:igloo",
+  "type": "structure",
+  "difficulty": 3,
+  "version": {
+    "version": "1.9",
+    "sequence": 45,
+    "major": 15,
+    "minor": 0
+  },
+  "major_tag": [
+    "地表",
+    "地下"
+  ],
+  "sub_tag": [
+    "建筑"
+  ],
+  "dimension": [
+    "minecraft:overworld"
+  ]
+}

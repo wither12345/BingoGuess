@@ -1,0 +1,20 @@
+{
+  "id": "minecraft:trident",
+  "type": "item",
+  "difficulty": 5,
+  "version": {
+    "version": "1.13",
+    "sequence": 59,
+    "major": 19,
+    "minor": 0
+  },
+  "major_tag": [
+    "战斗用品"
+  ],
+  "sub_tag": [
+    "三叉戟"
+  ],
+  "dimension": [
+    "minecraft:overworld"
+  ]
+}

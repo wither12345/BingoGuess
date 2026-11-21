@@ -1,0 +1,20 @@
+{
+  "id": "minecraft:husbandry/whole_pack",
+  "type": "advancement",
+  "difficulty": 5,
+  "version": {
+    "version": "1.20.5",
+    "sequence": 91,
+    "major": 26,
+    "minor": 5
+  },
+  "major_tag": [
+    "农牧业"
+  ],
+  "sub_tag": [
+    "挑战"
+  ],
+  "dimension": [
+    "minecraft:overworld"
+  ]
+}

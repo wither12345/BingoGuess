@@ -1,0 +1,20 @@
+{
+  "id": "minecraft:piglin_head",
+  "type": "block",
+  "difficulty": 5,
+  "version": {
+    "version": "1.19.3",
+    "sequence": 84,
+    "major": 25,
+    "minor": 3
+  },
+  "major_tag": [
+    "功能方块"
+  ],
+  "sub_tag": [
+    "头颅"
+  ],
+  "dimension": [
+    "minecraft:the_nether"
+  ]
+}

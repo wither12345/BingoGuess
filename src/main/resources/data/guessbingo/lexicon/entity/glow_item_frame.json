@@ -1,0 +1,21 @@
+{
+  "id": "minecraft:glow_item_frame",
+  "type": "entity",
+  "difficulty": 2,
+  "version": {
+    "version": "1.17",
+    "sequence": 76,
+    "major": 23,
+    "minor": 0
+  },
+  "major_tag": [
+    "非生物"
+  ],
+  "sub_tag": [
+    "装饰实体",
+    "展示"
+  ],
+  "dimension": [
+    "minecraft:overworld"
+  ]
+}

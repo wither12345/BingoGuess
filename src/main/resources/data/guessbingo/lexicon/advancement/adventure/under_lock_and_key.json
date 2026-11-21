@@ -1,0 +1,20 @@
+{
+  "id": "minecraft:adventure/under_lock_and_key",
+  "type": "advancement",
+  "difficulty": 5,
+  "version": {
+    "version": "1.20.5",
+    "sequence": 91,
+    "major": 26,
+    "minor": 5
+  },
+  "major_tag": [
+    "冒险"
+  ],
+  "sub_tag": [
+    "任务"
+  ],
+  "dimension": [
+    "minecraft:overworld"
+  ]
+}

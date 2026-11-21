@@ -1,0 +1,21 @@
+{
+  "id": "minecraft:acacia_log",
+  "type": "block",
+  "difficulty": 2,
+  "version": {
+    "version": "1.7.2",
+    "sequence": 26,
+    "major": 13,
+    "minor": 2
+  },
+  "major_tag": [
+    "建筑方块",
+    "自然方块"
+  ],
+  "sub_tag": [
+    "原木"
+  ],
+  "dimension": [
+    "minecraft:overworld"
+  ]
+}

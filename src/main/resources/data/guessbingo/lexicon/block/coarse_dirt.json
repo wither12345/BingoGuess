@@ -1,0 +1,20 @@
+{
+  "id": "minecraft:coarse_dirt",
+  "type": "block",
+  "difficulty": 1,
+  "version": {
+    "version": "1.7.2",
+    "sequence": 26,
+    "major": 13,
+    "minor": 2
+  },
+  "major_tag": [
+    "自然方块"
+  ],
+  "sub_tag": [
+    "泥土"
+  ],
+  "dimension": [
+    "minecraft:overworld"
+  ]
+}

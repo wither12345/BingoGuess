@@ -1,0 +1,21 @@
+{
+  "id": "minecraft:bad_omen",
+  "type": "mob_effect",
+  "difficulty": 2,
+  "version": {
+    "version": "1.14",
+    "sequence": 62,
+    "major": 20,
+    "minor": 0
+  },
+  "major_tag": [
+    "中性效果"
+  ],
+  "sub_tag": [
+    "袭击",
+    "试炼"
+  ],
+  "dimension": [
+    "minecraft:overworld"
+  ]
+}

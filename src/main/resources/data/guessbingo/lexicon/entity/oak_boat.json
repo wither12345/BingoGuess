@@ -1,0 +1,21 @@
+{
+  "id": "minecraft:oak_boat",
+  "type": "entity",
+  "difficulty": 1,
+  "version": {
+    "version": "Alpha",
+    "sequence": 4,
+    "major": 4,
+    "minor": 0
+  },
+  "major_tag": [
+    "非生物"
+  ],
+  "sub_tag": [
+    "载具",
+    "船"
+  ],
+  "dimension": [
+    "minecraft:overworld"
+  ]
+}

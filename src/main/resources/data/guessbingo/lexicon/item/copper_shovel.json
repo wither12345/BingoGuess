@@ -1,0 +1,20 @@
+{
+  "id": "minecraft:copper_shovel",
+  "type": "item",
+  "difficulty": 1,
+  "version": {
+    "version": "1.21.9",
+    "sequence": 102,
+    "major": 27,
+    "minor": 9
+  },
+  "major_tag": [
+    "工具与实用物品"
+  ],
+  "sub_tag": [
+    "锹"
+  ],
+  "dimension": [
+    "minecraft:overworld"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "id": "minecraft:pointed_dripstone",
+  "type": "block",
+  "difficulty": 2,
+  "version": {
+    "version": "1.17",
+    "sequence": 76,
+    "major": 23,
+    "minor": 0
+  },
+  "major_tag": [
+    "自然方块"
+  ],
+  "sub_tag": [
+    "钟乳石"
+  ],
+  "dimension": [
+    "minecraft:overworld"
+  ]
+}

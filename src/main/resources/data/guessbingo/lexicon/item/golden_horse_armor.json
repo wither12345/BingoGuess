@@ -1,0 +1,22 @@
+{
+  "id": "minecraft:golden_horse_armor",
+  "type": "item",
+  "difficulty": 4,
+  "version": {
+    "version": "1.6.1",
+    "sequence": 23,
+    "major": 12,
+    "minor": 1
+  },
+  "major_tag": [
+    "战斗用品"
+  ],
+  "sub_tag": [
+    "马铠"
+  ],
+  "dimension": [
+    "minecraft:overworld",
+    "minecraft:the_nether",
+    "minecraft:the_end"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "minecraft:pale_oak_boat",
+  "type": "entity",
+  "difficulty": 1,
+  "version": {
+    "version": "1.21.4",
+    "sequence": 97,
+    "major": 27,
+    "minor": 4
+  },
+  "major_tag": [
+    "非生物"
+  ],
+  "sub_tag": [
+    "载具",
+    "船"
+  ],
+  "dimension": [
+    "minecraft:overworld"
+  ]
+}

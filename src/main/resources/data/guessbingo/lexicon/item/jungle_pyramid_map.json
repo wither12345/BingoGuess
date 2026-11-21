@@ -1,0 +1,20 @@
+{
+  "id": "minecraft:jungle_pyramid_map",
+  "type": "item",
+  "difficulty": 3,
+  "version": {
+    "version": "1.21.5",
+    "sequence": 98,
+    "major": 27,
+    "minor": 5
+  },
+  "major_tag": [
+    "无"
+  ],
+  "sub_tag": [
+    "地图"
+  ],
+  "dimension": [
+    "minecraft:overworld"
+  ]
+}

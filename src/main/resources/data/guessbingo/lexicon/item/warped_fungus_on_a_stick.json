@@ -1,0 +1,20 @@
+{
+  "id": "minecraft:warped_fungus_on_a_stick",
+  "type": "item",
+  "difficulty": 3,
+  "version": {
+    "version": "1.16",
+    "sequence": 70,
+    "major": 22,
+    "minor": 0
+  },
+  "major_tag": [
+    "工具与实用物品"
+  ],
+  "sub_tag": [
+    "钓竿"
+  ],
+  "dimension": [
+    "minecraft:the_nether"
+  ]
+}

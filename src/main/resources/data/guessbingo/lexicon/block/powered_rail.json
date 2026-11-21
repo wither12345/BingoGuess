@@ -1,0 +1,22 @@
+{
+  "id": "minecraft:powered_rail",
+  "type": "block",
+  "difficulty": 3,
+  "version": {
+    "version": "Beta",
+    "sequence": 5,
+    "major": 5,
+    "minor": 0
+  },
+  "major_tag": [
+    "红石方块",
+    "工具与实用物品"
+  ],
+  "sub_tag": [
+    "铁轨",
+    "红石元件"
+  ],
+  "dimension": [
+    "minecraft:overworld"
+  ]
+}

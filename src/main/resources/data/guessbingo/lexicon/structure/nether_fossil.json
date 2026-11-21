@@ -1,0 +1,20 @@
+{
+  "id": "minecraft:nether_fossil",
+  "type": "structure",
+  "difficulty": 3,
+  "version": {
+    "version": "1.16",
+    "sequence": 70,
+    "major": 22,
+    "minor": 0
+  },
+  "major_tag": [
+    "地表"
+  ],
+  "sub_tag": [
+    "化石"
+  ],
+  "dimension": [
+    "minecraft:the_nether"
+  ]
+}

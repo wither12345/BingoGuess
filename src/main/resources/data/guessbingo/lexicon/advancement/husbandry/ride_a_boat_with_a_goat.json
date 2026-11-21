@@ -1,0 +1,20 @@
+{
+  "id": "minecraft:husbandry/ride_a_boat_with_a_goat",
+  "type": "advancement",
+  "difficulty": 3,
+  "version": {
+    "version": "1.17",
+    "sequence": 76,
+    "major": 23,
+    "minor": 0
+  },
+  "major_tag": [
+    "农牧业"
+  ],
+  "sub_tag": [
+    "任务"
+  ],
+  "dimension": [
+    "minecraft:overworld"
+  ]
+}

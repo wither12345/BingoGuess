@@ -1,0 +1,20 @@
+{
+  "id": "minecraft:diamond_block",
+  "type": "block",
+  "difficulty": 4,
+  "version": {
+    "version": "Indev",
+    "sequence": 2,
+    "major": 2,
+    "minor": 0
+  },
+  "major_tag": [
+    "建筑方块"
+  ],
+  "sub_tag": [
+    "储存方块"
+  ],
+  "dimension": [
+    "minecraft:overworld"
+  ]
+}

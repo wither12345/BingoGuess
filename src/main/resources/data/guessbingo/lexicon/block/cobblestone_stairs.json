@@ -1,0 +1,20 @@
+{
+  "id": "minecraft:cobblestone_stairs",
+  "type": "block",
+  "difficulty": 1,
+  "version": {
+    "version": "Infdev",
+    "sequence": 3,
+    "major": 3,
+    "minor": 0
+  },
+  "major_tag": [
+    "建筑方块"
+  ],
+  "sub_tag": [
+    "楼梯"
+  ],
+  "dimension": [
+    "minecraft:overworld"
+  ]
+}

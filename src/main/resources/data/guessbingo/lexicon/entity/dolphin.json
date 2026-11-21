@@ -1,0 +1,21 @@
+{
+  "id": "minecraft:dolphin",
+  "type": "entity",
+  "difficulty": 2,
+  "version": {
+    "version": "1.13",
+    "sequence": 59,
+    "major": 19,
+    "minor": 0
+  },
+  "major_tag": [
+    "中立生物"
+  ],
+  "sub_tag": [
+    "水生生物",
+    "动物"
+  ],
+  "dimension": [
+    "minecraft:overworld"
+  ]
+}

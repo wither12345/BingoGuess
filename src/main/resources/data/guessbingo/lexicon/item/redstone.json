@@ -1,0 +1,21 @@
+{
+  "id": "minecraft:redstone",
+  "type": "item",
+  "difficulty": 3,
+  "version": {
+    "version": "Alpha",
+    "sequence": 4,
+    "major": 4,
+    "minor": 0
+  },
+  "major_tag": [
+    "红石方块",
+    "原材料"
+  ],
+  "sub_tag": [
+    "红石元件"
+  ],
+  "dimension": [
+    "minecraft:overworld"
+  ]
+}

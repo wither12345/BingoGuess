@@ -1,0 +1,20 @@
+{
+  "id": "minecraft:sulfur_stairs",
+  "type": "block",
+  "difficulty": 4,
+  "version": {
+    "version": "26.2",
+    "sequence": 108,
+    "major": 29,
+    "minor": 0
+  },
+  "major_tag": [
+    "建筑方块"
+  ],
+  "sub_tag": [
+    "楼梯"
+  ],
+  "dimension": [
+    "minecraft:overworld"
+  ]
+}

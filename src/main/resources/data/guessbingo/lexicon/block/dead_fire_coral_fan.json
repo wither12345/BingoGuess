@@ -1,0 +1,21 @@
+{
+  "id": "minecraft:dead_fire_coral_fan",
+  "type": "block",
+  "difficulty": 4,
+  "version": {
+    "version": "1.13",
+    "sequence": 59,
+    "major": 19,
+    "minor": 0
+  },
+  "major_tag": [
+    "自然方块"
+  ],
+  "sub_tag": [
+    "珊瑚",
+    "珊瑚扇"
+  ],
+  "dimension": [
+    "minecraft:overworld"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "id": "minecraft:evoker",
+  "type": "entity",
+  "difficulty": 4,
+  "version": {
+    "version": "1.11",
+    "sequence": 53,
+    "major": 17,
+    "minor": 0
+  },
+  "major_tag": [
+    "敌对生物"
+  ],
+  "sub_tag": [
+    "灾厄村民"
+  ],
+  "dimension": [
+    "minecraft:overworld"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "minecraft:adventure/use_lodestone",
+  "type": "advancement",
+  "difficulty": 2,
+  "version": {
+    "version": "1.21.5",
+    "sequence": 98,
+    "major": 27,
+    "minor": 5
+  },
+  "major_tag": [
+    "冒险"
+  ],
+  "sub_tag": [
+    "任务"
+  ],
+  "dimension": [
+    "minecraft:overworld",
+    "minecraft:the_nether"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "id": "minecraft:sand",
+  "type": "block",
+  "difficulty": 1,
+  "version": {
+    "version": "Classic",
+    "sequence": 1,
+    "major": 1,
+    "minor": 0
+  },
+  "major_tag": [
+    "自然方块"
+  ],
+  "sub_tag": [
+    "沙"
+  ],
+  "dimension": [
+    "minecraft:overworld"
+  ]
+}

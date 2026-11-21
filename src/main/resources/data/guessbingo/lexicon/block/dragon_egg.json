@@ -1,0 +1,20 @@
+{
+  "id": "minecraft:dragon_egg",
+  "type": "block",
+  "difficulty": 5,
+  "version": {
+    "version": "Beta",
+    "sequence": 5,
+    "major": 5,
+    "minor": 0
+  },
+  "major_tag": [
+    "功能方块"
+  ],
+  "sub_tag": [
+    "龙蛋"
+  ],
+  "dimension": [
+    "minecraft:the_end"
+  ]
+}

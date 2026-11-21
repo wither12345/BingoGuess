@@ -1,0 +1,20 @@
+{
+  "id": "minecraft:lime_stained_glass_pane",
+  "type": "block",
+  "difficulty": 4,
+  "version": {
+    "version": "1.7.2",
+    "sequence": 26,
+    "major": 13,
+    "minor": 2
+  },
+  "major_tag": [
+    "染色方块"
+  ],
+  "sub_tag": [
+    "玻璃板"
+  ],
+  "dimension": [
+    "minecraft:overworld"
+  ]
+}

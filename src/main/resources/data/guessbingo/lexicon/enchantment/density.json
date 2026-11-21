@@ -1,0 +1,22 @@
+{
+  "id": "minecraft:density",
+  "type": "enchantment",
+  "difficulty": 4,
+  "version": {
+    "version": "1.21",
+    "sequence": 93,
+    "major": 27,
+    "minor": 0
+  },
+  "major_tag": [
+    "武器"
+  ],
+  "sub_tag": [
+    "锤"
+  ],
+  "dimension": [
+    "minecraft:overworld",
+    "minecraft:the_nether",
+    "minecraft:the_end"
+  ]
+}
