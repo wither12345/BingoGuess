@@ -1,6 +1,12 @@
 package dev.guessbingo.game;
 
+import com.mojang.serialization.Codec;
+import com.mojang.serialization.codecs.RecordCodecBuilder;
+import io.netty.buffer.ByteBuf;
+import net.minecraft.network.codec.ByteBufCodecs;
+import net.minecraft.network.codec.StreamCodec;
 import net.minecraft.server.MinecraftServer;
+import net.minecraft.server.level.ServerPlayer;
 
 import java.util.List;
 import java.util.UUID;
@@ -11,12 +17,30 @@ import java.util.UUID;
  */
 public interface Host {
 	record TeamInfo(String id, String name, int color, List<UUID> members) {
+		public static final Codec<TeamInfo> CODEC = RecordCodecBuilder.create(instance -> instance.group(
+				Codec.STRING.fieldOf("id").forGetter(TeamInfo::id),
+				Codec.INT.fieldOf("color").forGetter(TeamInfo::color)
+		).apply(instance, TeamInfo::buildFake));
+
+		public static final StreamCodec<ByteBuf, TeamInfo> STREAM_CODEC = StreamCodec.composite(
+				ByteBufCodecs.STRING_UTF8, TeamInfo::id,
+				ByteBufCodecs.INT, TeamInfo::color,
+				TeamInfo::buildFake
+		);
+
+		public static TeamInfo buildFake(String id, int color){
+			return new TeamInfo(id, id, color, List.of());
+		}
 	}
 
 	String label();
 
 	/** 当前参赛的队伍（至少有一名成员）。 */
 	List<TeamInfo> teams(MinecraftServer server);
+
+	default TeamInfo teamOf(ServerPlayer player) {
+		return teamOf(player.level().getServer(), player.getUUID());
+	}
 
 	default TeamInfo teamOf(MinecraftServer server, UUID player) {
 		for (TeamInfo team : teams(server)) {

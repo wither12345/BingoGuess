@@ -1,20 +1,12 @@
 package dev.guessbingo.game;
 
-import net.minecraft.advancements.AdvancementHolder;
-import net.minecraft.advancements.AdvancementProgress;
-import net.minecraft.core.registries.Registries;
-import net.minecraft.resources.Identifier;
-import net.minecraft.resources.ResourceKey;
 import net.minecraft.server.MinecraftServer;
-import net.minecraft.server.level.ServerLevel;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.world.scores.PlayerTeam;
 import net.minecraft.world.scores.TeamColor;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Map;
-import java.util.Set;
 import java.util.UUID;
 
 /**
@@ -51,57 +43,10 @@ public final class VanillaHost implements Host {
 
 	@Override
 	public List<Integer> onMatchStarted(MinecraftServer server, Match match) {
-		match.returnPoints.clear();
-		for (TeamInfo team : teams(server)) {
-			for (UUID id : team.members()) {
-				ServerPlayer player = server.getPlayerList().getPlayer(id);
-				if (player == null) continue;
-				Match.ReturnPoint point = new Match.ReturnPoint();
-				point.dimension = player.level().dimension().identifier().toString();
-				point.x = player.getX();
-				point.y = player.getY();
-				point.z = player.getZ();
-				point.yaw = player.getYRot();
-				point.pitch = player.getXRot();
-				match.returnPoints.put(id.toString(), point);
-			}
-		}
 		return List.of(1,1,1,1,1);
 	}
 
 	@Override
 	public void onMatchEnded(MinecraftServer server, Match match, boolean endedByHost) {
-		for (Map.Entry<String, Match.ReturnPoint> entry : match.returnPoints.entrySet()) {
-			ServerPlayer player;
-			try {
-				player = server.getPlayerList().getPlayer(UUID.fromString(entry.getKey()));
-			} catch (IllegalArgumentException e) {
-				continue;
-			}
-			if (player == null) continue;
-			resetPlayer(server, player);
-			Match.ReturnPoint point = entry.getValue();
-			Identifier dimension = Identifier.tryParse(point.dimension);
-			ServerLevel level = dimension == null ? null : server.getLevel(ResourceKey.create(Registries.DIMENSION, dimension));
-			if (level == null) level = server.overworld();
-			player.teleportTo(level, point.x, point.y, point.z, Set.of(), point.yaw, point.pitch, false);
-		}
-	}
-
-	private static void resetPlayer(MinecraftServer server, ServerPlayer player) {
-		player.closeContainer();
-		player.getInventory().clearContent();
-		player.containerMenu.setCarried(net.minecraft.world.item.ItemStack.EMPTY);
-		player.removeAllEffects();
-		player.setExperienceLevels(0);
-		player.setExperiencePoints(0);
-		player.setHealth(player.getMaxHealth());
-		for (AdvancementHolder holder : server.getAdvancements().getAllAdvancements()) {
-			AdvancementProgress progress = player.getAdvancements().getOrStartProgress(holder);
-			if (!progress.hasProgress()) continue;
-			List<String> done = new ArrayList<>();
-			for (String criterion : progress.getCompletedCriteria()) done.add(criterion);
-			for (String criterion : done) player.getAdvancements().revoke(holder, criterion);
-		}
 	}
 }

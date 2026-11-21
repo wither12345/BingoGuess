@@ -96,12 +96,13 @@ public final class BingoCompat implements Host {
 
 	private void onEnded() {
 		if (manager.match().active) manager.finish("bingo 游戏已结束", true);
+		manager.discard();
 		restoreOptions();
 	}
 
 	private void onReset() {
 		// bingo 回到大厅（大厅模式下世界已经重建）：上一局的状态不再有意义
-		if (manager.server() != null && !manager.match().active && !manager.match().questions.isEmpty()) manager.discard();
+		manager.discard();
 		hidePreviewCard();
 	}
 
@@ -189,6 +190,7 @@ public final class BingoCompat implements Host {
 							difficulties.set(index, difficulties.get(index) + 1);
 						}
 					}
+
 					cards.replaceEntry(card, i % 5, i / 5, "minecraft:" + BLANKS[i]);
 				}
 			}

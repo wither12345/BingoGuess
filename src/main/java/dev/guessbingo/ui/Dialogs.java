@@ -1,22 +1,13 @@
 package dev.guessbingo.ui;
 
 import dev.guessbingo.GuessBingo;
-import dev.guessbingo.game.Match;
-import dev.guessbingo.game.MatchManager;
 import dev.guessbingo.lex.Entry;
-import dev.guessbingo.lex.GuessRow;
 import net.minecraft.core.Holder;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.ClickEvent;
 import net.minecraft.network.chat.Component;
 import net.minecraft.resources.Identifier;
-import net.minecraft.server.dialog.ActionButton;
-import net.minecraft.server.dialog.CommonButtonData;
-import net.minecraft.server.dialog.CommonDialogData;
-import net.minecraft.server.dialog.Dialog;
-import net.minecraft.server.dialog.DialogAction;
-import net.minecraft.server.dialog.MultiActionDialog;
-import net.minecraft.server.dialog.NoticeDialog;
+import net.minecraft.server.dialog.*;
 import net.minecraft.server.dialog.action.StaticAction;
 import net.minecraft.server.dialog.body.DialogBody;
 import net.minecraft.server.dialog.body.PlainMessage;
@@ -80,23 +71,6 @@ public final class Dialogs {
 		List<DialogBody> body = List.of(line(Component.literal(summary)));
 		ActionButton back = button("返回输入", null, 150, "guess");
 		player.openDialog(Holder.direct(new MultiActionDialog(common("查询结果", body), buttons, Optional.of(back), 2)));
-	}
-
-	/** 本回合全部猜测记录。 */
-	public static void showHistory(ServerPlayer player, MatchManager manager) {
-		Match match = manager.match();
-		List<DialogBody> body = new ArrayList<>();
-		if (!match.active) {
-			body.add(line(Component.literal("现在没有进行中的对局。")));
-		} else {
-			body.add(line(Texts.text("第 " + (match.index + 1) + "/" + match.questions.size() + " 回合，共 " + match.history.size() + " 次猜测", Texts.GOLD)));
-			body.add(line(Texts.header()));
-			if (match.history.isEmpty()) body.add(line(Texts.text("还没有人猜过", Texts.GRAY)));
-			for (GuessRow row : match.history) {
-				body.add(line(Texts.guessLine(row, manager.teamName(row.team), manager.teamColor(row.team))));
-			}
-		}
-		notice(player, "历史记录", body);
 	}
 
 	public static List<String> rules() {

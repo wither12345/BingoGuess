@@ -1,0 +1,21 @@
+{
+  "death.attack.badRespawnPoint.message": "%1$s被%2$s用床配了",
+  "death.attack.generic": "%1$s被曹似了",
+  "death.attack.generic.player": "%1$s被%2$s配了",
+  "death.attack.genericKill": "%1$s被配了",
+  "death.attack.genericKill.player": "%1$s在与%2$s激烈战斗中落入下风",
+  "death.attack.mob": "%1$s被%2$s配了",
+  "death.attack.mob.item": "%1$s被%2$s用%3$s配了",
+  "death.attack.player": "%1$s被%2$s配了",
+  "death.attack.player.item": "%1$s被%2$s用%3$s曹飞了",
+  "death.attack.spear": "%1$s被%2$s捅高超了",
+  "death.attack.spear.item": "%1$s被%2$s用%3$s捅高超了",
+  "dimension.minecraft.overworld": "主世界",
+  "dimension.minecraft.the_nether": "下界",
+  "dimension.minecraft.the_end": "末地",
+  "guessbingo.lore.correct": "你猜对了第%1$s题！",
+  "guessbingo.lore.achievable": "你现在可以完成第%1$s题了！",
+  "guessbingo.lore.complete": "您已完成第%1$s题！",
+  "guessbingo.lore.completed": "第%1$s题已完成！",
+  "guessbingo.type.unknown": "未知"
+}

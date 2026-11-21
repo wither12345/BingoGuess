@@ -6,7 +6,6 @@ import com.mojang.brigadier.arguments.IntegerArgumentType;
 import com.mojang.brigadier.arguments.StringArgumentType;
 import com.mojang.brigadier.builder.LiteralArgumentBuilder;
 import com.mojang.brigadier.tree.LiteralCommandNode;
-import dev.guessbingo.entity.player.IPlayer;
 import dev.guessbingo.game.Config;
 import dev.guessbingo.game.Match;
 import dev.guessbingo.game.MatchManager;
@@ -21,7 +20,6 @@ import net.minecraft.network.chat.Component;
 import net.minecraft.network.chat.MutableComponent;
 import net.minecraft.server.level.ServerPlayer;
 
-import java.text.DecimalFormat;
 import java.util.List;
 
 import static net.minecraft.commands.Commands.argument;
@@ -41,32 +39,24 @@ import static net.minecraft.commands.Commands.literal;
  * </pre>
  */
 public final class GbCommands {
-	private static final DecimalFormat FORMAT = new DecimalFormat("##.##");
 	private GbCommands() {
 	}
 
 	public static void register(CommandDispatcher<CommandSourceStack> dispatcher, MatchManager manager) {
 		dispatcher.register(literal("guess")
-				.executes(ctx -> openInput(ctx.getSource()))
-				.then(argument("name", StringArgumentType.greedyString())
-						.executes(ctx -> guess(ctx.getSource(), manager, StringArgumentType.getString(ctx, "name")))));
+				.executes(ctx -> openInput(ctx.getSource())));
+				//.then(argument("name", StringArgumentType.greedyString())
+				//		.executes(ctx -> guess(ctx.getSource(), manager, StringArgumentType.getString(ctx, "name")))));
 
 		LiteralArgumentBuilder<CommandSourceStack> gb = literal("gb")
-				.executes(ctx -> status(ctx.getSource(), manager))
-				.then(literal("status").executes(ctx -> status(ctx.getSource(), manager)))
 				.then(literal("history").executes(ctx -> history(ctx.getSource(), manager)))
 				.then(literal("rules").executes(ctx -> rules(ctx.getSource())))
 				.then(literal("search")
 						.executes(ctx -> openInput(ctx.getSource()))
 						.then(argument("keyword", StringArgumentType.greedyString())
 								.executes(ctx -> search(ctx.getSource(), manager, StringArgumentType.getString(ctx, "keyword")))))
-				.then(literal("vote")
-						.then(literal("yes").executes(ctx -> vote(ctx.getSource(), manager, true)))
-						.then(literal("no").executes(ctx -> vote(ctx.getSource(), manager, false))))
 				.then(literal("start").requires(Commands.hasPermission(Commands.LEVEL_GAMEMASTERS)).executes(ctx -> start(ctx.getSource(), manager)))
 				.then(literal("stop").requires(Commands.hasPermission(Commands.LEVEL_GAMEMASTERS)).executes(ctx -> stop(ctx.getSource(), manager)))
-				.then(literal("skip").requires(Commands.hasPermission(Commands.LEVEL_GAMEMASTERS)).executes(ctx -> skip(ctx.getSource(), manager)))
-				.then(literal("voteskip").requires(Commands.hasPermission(Commands.LEVEL_GAMEMASTERS)).executes(ctx -> voteSkip(ctx.getSource(), manager)))
 				.then(literal("answer").requires(Commands.hasPermission(Commands.LEVEL_GAMEMASTERS)).executes(ctx -> answer(ctx.getSource(), manager)))
 				.then(literal("reload").requires(Commands.hasPermission(Commands.LEVEL_GAMEMASTERS)).executes(ctx -> {
 					manager.reloadConfig();
@@ -76,7 +66,6 @@ public final class GbCommands {
 				.then(config(manager));
 
 		LiteralCommandNode<CommandSourceStack> node = dispatcher.register(gb);
-		dispatcher.register(literal("guessbingo").executes(ctx -> status(ctx.getSource(), manager)).redirect(node));
 	}
 
 	private static LiteralArgumentBuilder<CommandSourceStack> config(MatchManager manager) {
@@ -112,7 +101,6 @@ public final class GbCommands {
 				.then(literal("hudrows").then(argument("rows", IntegerArgumentType.integer(1, 12)).executes(ctx -> {
 					manager.config().hudRows = IntegerArgumentType.getInteger(ctx, "rows");
 					manager.saveConfig();
-					manager.sync();
 					ctx.getSource().sendSuccess(() -> Texts.good("面板显示的猜测行数已设为 " + manager.config().hudRows), true);
 					return 1;
 				})))
@@ -151,30 +139,6 @@ public final class GbCommands {
 		return 1;
 	}
 
-	private static int guess(CommandSourceStack source, MatchManager manager, String name) {
-		ServerPlayer player = playerOrNull(source);
-		if (player == null) return fail(source, "只有玩家可以猜词");
-		int cd = ((IPlayer) player).guessbingo$getGuessCD();
-		if (cd > 0) {
-			return fail(source, "你还在冷却中，请等待" + FORMAT.format(cd / 20f) + "秒");
-		}
-		((IPlayer) player).guessbingo$resetGuessCD();
-		MatchManager.GuessOutcome outcome = manager.guess(player, name);
-		switch (outcome.kind()) {
-			case REJECTED -> {
-				return fail(source, outcome.message());
-			}
-			case CANDIDATES -> {
-				player.sendSystemMessage(Texts.info("没有叫「" + outcome.message() + "」的词条，找到 " + outcome.candidates().size() + " 个相近的名称，请从中选择"));
-				Dialogs.showCandidates(player, outcome.message(), outcome.candidates());
-				return 0;
-			}
-			default -> {
-				return 1;
-			}
-		}
-	}
-
 	private static int search(CommandSourceStack source, MatchManager manager, String keyword) {
 		String query = Lexicon.normalize(keyword);
 		List<Entry> candidates = manager.lexicon().search(query);
@@ -190,36 +154,10 @@ public final class GbCommands {
 		return candidates.size();
 	}
 
-	private static int status(CommandSourceStack source, MatchManager manager) {
-		Match match = manager.match();
-		if (!match.active) {
-			source.sendSuccess(() -> Texts.info("现在没有进行中的对局。队伍来源：" + manager.host().label()), false);
-			source.sendSuccess(() -> Texts.info("本局设置：" + countsText(manager.config()) + "，共 " + manager.config().totalQuestions() + " 题"), false);
-			if (!match.results.isEmpty()) {
-				source.sendSuccess(() -> Texts.prefix().append(Texts.text("上一局比分：", Texts.WHITE)).append(manager.scoreLine()), false);
-			}
-			return 0;
-		}
-		Match.Question q = match.current();
-		String phase = match.guessing() ? "猜词中，已猜 " + match.history.size() + " 次" : "谜底「" + match.answer + "」已揭晓，等待完成挑战";
-		source.sendSuccess(() -> Texts.info("第 " + (match.index + 1) + "/" + match.questions.size() + " 回合 · 难度 "
-				+ Texts.stars(q.difficulty) + "（" + q.difficulty + " 分）· " + phase), false);
-		source.sendSuccess(() -> Texts.prefix().append(Texts.text("比分：", Texts.WHITE)).append(manager.scoreLine()), false);
-		if (!match.history.isEmpty()) {
-			source.sendSuccess(() -> Texts.prefix().append(Texts.header()), false);
-			int from = Math.max(0, match.history.size() - manager.config().hudRows);
-			for (GuessRow row : match.history.subList(from, match.history.size())) {
-				MutableComponent line = Texts.guessLine(row, manager.teamName(row.team), manager.teamColor(row.team));
-				source.sendSuccess(() -> line, false);
-			}
-		}
-		return 1;
-	}
 
 	private static int history(CommandSourceStack source, MatchManager manager) {
 		ServerPlayer player = playerOrNull(source);
 		if (player != null) {
-			Dialogs.showHistory(player, manager);
 			return 1;
 		}
 		Match match = manager.match();
@@ -241,14 +179,6 @@ public final class GbCommands {
 		return 1;
 	}
 
-	private static int vote(CommandSourceStack source, MatchManager manager, boolean agree) {
-		ServerPlayer player = playerOrNull(source);
-		if (player == null) return fail(source, "只有玩家可以投票");
-		String error = manager.castVote(player, agree);
-		if (error != null) return fail(source, error);
-		player.sendSystemMessage(Texts.info("已记录你的选择：" + (agree ? "同意跳过" : "反对跳过")));
-		return 1;
-	}
 
 	private static int start(CommandSourceStack source, MatchManager manager) {
 		String blocker = manager.host().manualStartBlocker(source.getServer());
@@ -261,18 +191,6 @@ public final class GbCommands {
 	private static int stop(CommandSourceStack source, MatchManager manager) {
 		if (!manager.match().active) return fail(source, "现在没有进行中的对局");
 		manager.finish(source.getTextName() + " 结束了本局", false);
-		return 1;
-	}
-
-	private static int skip(CommandSourceStack source, MatchManager manager) {
-		if (!manager.match().active) return fail(source, "现在没有进行中的对局");
-		manager.skipRound(source.getTextName() + " 直接跳过");
-		return 1;
-	}
-
-	private static int voteSkip(CommandSourceStack source, MatchManager manager) {
-		String error = manager.startVote(source.getTextName());
-		if (error != null) return fail(source, error);
 		return 1;
 	}
 

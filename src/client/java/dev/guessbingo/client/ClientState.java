@@ -1,46 +1,69 @@
 package dev.guessbingo.client;
 
-import com.google.gson.Gson;
-import dev.guessbingo.GuessBingo;
-import dev.guessbingo.net.HudState;
+import com.mojang.datafixers.util.Either;
+import com.mojang.datafixers.util.Pair;
+import dev.guessbingo.game.Host;
+import dev.guessbingo.lex.wrapped.WrappedQuestion;
+import dev.guessbingo.lex.wrapped.WrappedUnknown;
+import dev.guessbingo.net.PushGuessResult;
+import dev.guessbingo.net.ScoreData;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 /** 客户端保存的最新一份面板状态。 */
 public final class ClientState {
-	private static final Gson GSON = new Gson();
-	private static HudState state;
-	private static long receivedAt;
+
+	private static final List<Pair<WrappedQuestion, DisplayGroup>> questions = new ArrayList<>(25);
+	private static final Map<Host.TeamInfo, Float> scores = new HashMap<>();
+
 
 	private ClientState() {
 	}
 
-	public static void update(String json) {
-		try {
-			state = GSON.fromJson(json, HudState.class);
-			receivedAt = System.currentTimeMillis();
-		} catch (RuntimeException e) {
-			GuessBingo.LOGGER.warn("无法解析服务端发来的面板状态", e);
-			state = null;
+	/** 更新问题列表 */
+	public static void init(List<Either<Integer, WrappedQuestion>> newQuestions) {
+		ClientState.questions.clear();
+		scores.clear();
+		for(int i = 0; i < newQuestions.size(); i++){
+			final int index = i;
+			WrappedQuestion question = newQuestions.get(i).map(
+					integer -> new WrappedUnknown(integer, index),
+					wrapped -> wrapped
+			);
+			ClientState.questions.add(Pair.of(question, DisplayGroup.fromQuestion(question.unwrap())));
 		}
 	}
 
-	public static void clear() {
-		state = null;
+	/** 更新分数数据 */
+	public static void updateScoreData(ScoreData payload){
+		scores.clear();
+		scores.putAll(payload.scores());
 	}
 
-	public static HudState get() {
-		return state;
+	public static Map<Host.TeamInfo, Float> getScores() {
+		return scores;
+	}
+
+	public static void updateQuestionState(PushGuessResult result){
+		int index = result.index();
+		if(questions.size() > index && questions.get(index).getFirst() instanceof WrappedUnknown wrappedUnknown){
+			WrappedQuestion wrappedQuestion = wrappedUnknown.update(result.reveal(), result.guessResult());
+			questions.set(index, Pair.of(wrappedQuestion, DisplayGroup.fromQuestion(wrappedQuestion.unwrap())));
+		}
+	}
+
+	public static void completeQuestion(int index) {
+    	questions.get(index).getFirst().complete();
+	}
+
+	public static List<Pair<WrappedQuestion, DisplayGroup>> getState() {
+		return questions;
 	}
 
 	public static boolean active() {
-		HudState s = state;
-		return s != null && s.active;
-	}
-
-	/** 投票剩余秒数：在两次同步之间由本地时钟补足。 */
-	public static int voteSecondsLeft() {
-		HudState s = state;
-		if (s == null || s.vote == null) return 0;
-		long elapsed = (System.currentTimeMillis() - receivedAt) / 1000;
-		return (int) Math.max(0, s.vote.secondsLeft - elapsed);
+		return true;
 	}
 }

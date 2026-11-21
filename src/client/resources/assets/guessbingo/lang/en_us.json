@@ -1,0 +1,21 @@
+{
+  "death.attack.badRespawnPoint.message":"%1$s was killed by %2$s",
+  "death.attack.generic": "%1$s died",
+  "death.attack.generic.player": "%1$s died because of %2$s",
+  "death.attack.genericKill": "%1$s was killed",
+  "death.attack.genericKill.player": "%1$s was killed while fighting %2$s",
+  "death.attack.mob": "%1$s was slain by %2$s",
+  "death.attack.mob.item": "%1$s was slain by %2$s using %3$s",
+  "death.attack.player": "%1$s was slain by %2$s",
+  "death.attack.player.item": "%1$s was slain by %2$s using %3$s",
+  "death.attack.spear": "%1$s was speared by %2$s",
+  "death.attack.spear.item": "%1$s was speared by %2$s using %3$s",
+  "dimension.minecraft.overworld": "Overworld",
+  "dimension.minecraft.the_nether": "Nether",
+  "dimension.minecraft.the_end": "End",
+  "guessbingo.lore.correct": "You guessed the %1$s one right!",
+  "guessbingo.lore.achievable": "You can complete the %1$s one right now!",
+  "guessbingo.lore.complete": "You completed the %1$s one!",
+  "guessbingo.lore.completed": "The %1$s one has been completed!",
+  "guessbingo.type.unknown": "Unknown"
+}

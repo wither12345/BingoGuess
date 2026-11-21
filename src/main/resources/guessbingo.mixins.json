@@ -4,9 +4,9 @@
   "package": "dev.guessbingo.mixin",
   "compatibilityLevel": "JAVA_25",
   "mixins": [
-    "HealOrHarmMobEffectMixin",
-    "MobEffectMixin",
-    "PlayerMixin"
+    "PlayerAdvancementsMixin",
+    "PlayerMixin",
+    "SimpleCriterionTriggerMixin"
   ],
   "injectors": {
     "defaultRequire": 1
